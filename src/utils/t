@@ -1,0 +1,61 @@
+const extensions = {
+  'AdBlock — best ad blocker': {
+    id: 'gighmmpiobklfepjocnamgkkbiglidom',
+    file: 'adblock-uiscripts-adblock-wizard.css',
+  },
+  'Honey: Automatic Coupons & Cash Back': {
+    id: 'bmnlcjabgnpnenekpadlanbbkooimhnj',
+    file: 'images/*',
+  },
+  'AdGuard AdBlocker': {
+    id: 'bgnkhhnnamicmpeenaelnjfhikgbkllg',
+    file: '/web-accessible-resources/*',
+  },
+  'Google Translate': {
+    id: 'aapbdbdomjkkjkaonfhkkikfgjllcleb',
+    file: 'popup_css_compiled.css',
+  },
+  'Grammarly: Grammar Checker and Writing App': {
+    id: 'kbfnbcaeplbcioakkpcpgfkobkghlhen',
+    file: 'src/fonts/*.woff',
+  },
+  'LastPass: Free Password Manager': {
+    id: 'hdokiejnpimakedhajhdlcegeplioahd',
+    file: 'overlay.html',
+  },
+  'uBlock Origin': {
+    id: 'cjpalhdlnbpafiamejdnhcphjbkeiagm',
+    file: '/web_accessible_resources/*',
+  },
+  'Avast Online Security & Privacy': {
+    id: 'gomekmidlodglbbmalcneegieacbdmki',
+    file: 'common/mocks/*',
+  },
+  'Avast SafePrice | Comparison, deals, coupons': {
+    id: 'eofcbnmajmjmplflapaojjnihcjkigck',
+    file: 'common/ui/*',
+  },
+  'Netflix Party is now Teleparty': {
+    id: 'oocalimimngaihdkbihfgmpkcpnmlaoa',
+    file: 'img/*.svg',
+  },
+  'Screencastify - Screen Video Recorder': {
+    id: 'mmeijimgabbpbgpdklnllpncmdofkcpn',
+    file: 'assets/fonts/draw/*.woff2',
+  },
+  'Adobe Acrobat: PDF edit, convert, sign tools': {
+    id: 'efaidnbmnnnibpcajpcglclefindmkaj',
+    file: 'viewer.html',
+  },
+  'Kami for Google Chrome™': {
+    id: 'ecnphlgnajanjnkcmbpancdjoidceilk',
+    file: 'getFrameId',
+  },
+  'Google Docs Offline': {
+    id: 'ghbmnnjooekpmoecnnnilnnbdlolhkhi',
+    file: 'page_embed_script.js',
+  },
+  'Cisco Webex Extension': {
+    id: 'jlhmfgmfgeifomenelglieieghnjghma',
+    file: 'cwcsf-nativemsg-iframe-43c85c0d-d633-af5e-c056-32dc7efc570b.html',
+  },
