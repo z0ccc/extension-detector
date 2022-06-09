@@ -7,10 +7,8 @@
 
 body {
   background: #657fca0a;
-}
-
-.tableWrap {
-  border:1px solid #ddd;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 table {
@@ -29,4 +27,20 @@ tr:not(:last-child) {
 td, th {
   padding: 12px;
   text-align: left;
+}
+
+h1 {
+  all: unset;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h2 {
+  all: unset;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+span {
+  height: 28px;
 }

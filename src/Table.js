@@ -1,6 +1,6 @@
 const Table = ({ extensions }) => {
   return (
-    <div className="tableWrap">
+    <div style={{ border: '1px solid #ddd', boxSizing: 'border-box' }}>
       <table>
         <tr>
           <th>Extension</th>
