@@ -31,10 +31,6 @@ const extensions = {
     id: 'gomekmidlodglbbmalcneegieacbdmki',
     file: 'common/mocks/empty.js',
   },
-  'Avast Online Security & Privacy': {
-    id: 'gomekmidlodglbbmalcneegieacbdmki',
-    file: '_locales/ar/messages.json',
-  },
   'Avast SafePrice | Comparison, deals, coupons': {
     id: 'eofcbnmajmjmplflapaojjnihcjkigck',
     file: 'common/ui/css/extension.css',

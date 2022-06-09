@@ -1,12 +1,46 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
-import extensionScan from './utils/extensionScan';
+import checkExtensions from './utils/checkExtensions';
 
 const App = () => {
+  const [extensions, setExtensions] = useState();
+
   useEffect(() => {
-    extensionScan();
+    checkExtensions().then((extensionsArr) =>
+      setExtensions(
+        extensionsArr.sort((a, b) => Number(b.detected) - Number(a.detected))
+      )
+    );
   }, []);
-  return <div className="App"></div>;
+
+  useEffect(() => {
+    console.log(extensions);
+  }, [extensions]);
+
+  return (
+    <div className="App">
+      {extensions ? (
+        <table>
+          <tbody>
+            {Object.keys(extensions).map((key) => (
+              <tr
+                style={{
+                  backgroundColor: extensions[key].detected
+                    ? '#00ff00'
+                    : '#ff0000',
+                }}
+              >
+                <td>{extensions[key].name}</td>
+                <td>{`${extensions[key].detected}`}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      ) : (
+        'loading'
+      )}
+    </div>
+  );
 };
 
 export default App;
