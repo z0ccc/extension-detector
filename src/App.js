@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Table from './Table';
+import Header from './Header';
+
 import checkExtensions from './utils/checkExtensions';
 
 const App = () => {
@@ -19,27 +22,10 @@ const App = () => {
 
   return (
     <div className="App">
-      {extensions ? (
-        <table>
-          <tbody>
-            {Object.keys(extensions).map((key) => (
-              <tr
-                style={{
-                  backgroundColor: extensions[key].detected
-                    ? '#00ff00'
-                    : '#ff0000',
-                }}
-                key={key}
-              >
-                <td>{extensions[key].name}</td>
-                <td>{`${extensions[key].detected}`}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      ) : (
-        'loading'
-      )}
+      <div>
+        <Header />
+        {extensions ? <Table extensions={extensions} /> : 'loading'}
+      </div>
     </div>
   );
 };

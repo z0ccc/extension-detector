@@ -1,8 +1,32 @@
-table {
-  width: 500px;
-  border:1px solid black;
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  min-width: 600px;
 }
 
-td {
-  padding: 10px;
+body {
+  background: #657fca0a;
+}
+
+.tableWrap {
+  border:1px solid #ddd;
+}
+
+table {
+  width: 600px;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: #fff;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+td, th {
+  padding: 12px;
+  text-align: left;
 }
