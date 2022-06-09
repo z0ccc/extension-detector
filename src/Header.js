@@ -1,17 +1,23 @@
+import Box from './Box';
 import GitHubButton from 'react-github-btn';
 
-const Header = () => {
+const isSupported = () => {
+  if (!window.chrome) {
+    return false;
+  }
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    return false;
+  }
+  return true;
+};
+
+const Header = ({ hash }) => {
   return (
-    <div
-      style={{
-        width: '600px',
-        backgroundColor: '#fff',
-        padding: '12px',
-        boxSizing: 'border-box',
-        border: '1px solid #ddd',
-        marginBottom: '12px',
-      }}
-    >
+    <Box>
       <div
         style={{
           display: 'flex',
@@ -36,10 +42,14 @@ const Header = () => {
         browser fingerprinting. Read more
       </p>
       <div style={{ textAlign: 'center', margin: '24px 0' }}>
-        <h2>0.01% of users share the same extensions</h2>
-        <p>Hash: 321cca8846c784b6f2d6ba628f8502a5fb0683ae</p>
+        <h2>
+          {isSupported()
+            ? '0.01% of users share the same extensions'
+            : 'Only Chromium desktop browsers are supported'}
+        </h2>
+        <p>Hash: {hash}</p>
       </div>
-    </div>
+    </Box>
   );
 };
 

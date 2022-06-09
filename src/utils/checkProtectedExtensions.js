@@ -28,9 +28,9 @@ const testURLS = async (name, extension) => {
   const timeTest = await getFetchTime(url, testUrl);
 
   if (timeTest / 200 > 0.66) {
-    return { name, detected: true };
+    return { name, detected: true, id: extension.id };
   }
-  return { name, detected: false };
+  return { name, detected: false, id: extension.id };
 };
 
 const checkProtectedExtensions = async () => {
