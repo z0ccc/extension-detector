@@ -7,10 +7,6 @@ const extensions = {
     id: 'bmnlcjabgnpnenekpadlanbbkooimhnj',
     file: 'checkoutPaypal/paypal/context.js',
   },
-  'AdGuard AdBlocker': {
-    id: 'bgnkhhnnamicmpeenaelnjfhikgbkllg',
-    file: 'web-accessible-resources/redirects/1x1-transparent.gif',
-  },
   'Google Translate': {
     id: 'aapbdbdomjkkjkaonfhkkikfgjllcleb',
     file: 'popup_css_compiled.css',
@@ -22,10 +18,6 @@ const extensions = {
   'LastPass: Free Password Manager': {
     id: 'hdokiejnpimakedhajhdlcegeplioahd',
     file: 'overlay.html',
-  },
-  'uBlock Origin': {
-    id: 'cjpalhdlnbpafiamejdnhcphjbkeiagm',
-    file: 'web_accessible_resources/1x1.gif',
   },
   'Avast Online Security & Privacy': {
     id: 'gomekmidlodglbbmalcneegieacbdmki',
@@ -408,10 +400,6 @@ const extensions = {
     file: 'devtools.html',
   },
   WhatFont: { id: 'jabopobgcpjmedljpbcaablpmlmfcogm', file: 'wf.css' },
-  'Privacy Badger': {
-    id: 'pkehgijcmpdhfbdbbnkijodmdjhbjlgp',
-    file: 'data/web_accessible_resources/README.md',
-  },
   'Visual Effects for Google Meet': {
     id: 'hodiladlefdpcbemnbbcpclbmknkiaem',
     file: 'dist/content.js',
@@ -1099,10 +1087,6 @@ const extensions = {
     id: 'ddaloccgjfibfpkalenodgehlhkgoahe',
     file: 'nuanria.Chrome.js',
   },
-  'Qwant VIPrivacy': {
-    id: 'hnlkiofnhhoahaiimdicppgemmmomijo',
-    file: 'web-accessible-resources/redirects/1x1-transparent.gif',
-  },
   'Jungle Scout': {
     id: 'bckjlihkmgolmgkchbpiponapgjenaoa',
     file: '_metadata/verified_contents.json',
@@ -1517,10 +1501,6 @@ const extensions = {
     file: 'toast_icon.png',
   },
   'Meow, The Cat Pet': { id: 'ejgnolahdlcimijhloboakpjogbfdkkp', file: '}' },
-  'Ad Remover - Ad Blocker for Chrome': {
-    id: 'ojjjflcdgjegkdcojbahlbgeiinpbfgf',
-    file: 'web_accessible_resources/1x1.gif',
-  },
   'Pouch - Automatic Coupons at Checkout': {
     id: 'eoolfmmapnkhandljfaaofncecfakljd',
     file: 'static/128x128-active.png',
@@ -1846,10 +1826,6 @@ const extensions = {
     id: 'ilfoopambfaclfjmpiaijnccgcmbeigi',
     file: 'logoS_chrome.png',
   },
-  'Adblock for You': {
-    id: 'ogcaehilgakehloljjmajoempaflmdci',
-    file: 'web_accessible_resources/1x1 2.gif',
-  },
   NCapture: {
     id: 'lgomjifbpjfhpodjhihemafahhmegbek',
     file: 'icons/ncapture-48.png',
@@ -1938,10 +1914,6 @@ const extensions = {
   'Task Timer': {
     id: 'aomfjmibjhhfdenfkpaodhnlhkolngif',
     file: 'style/images/icon-64.png',
-  },
-  'AdBlock Max - ad blocker': {
-    id: 'ggdpplfehdighdpleoegjefnpefgpgfh',
-    file: 'web_accessible_resources/1x1.gif',
   },
   'Malus VPN - The only official version': {
     id: 'bdlcnpceagnkjnjlbbbcepohejbheilk',
@@ -2476,10 +2448,6 @@ const extensions = {
     id: 'cdockenadnadldjbbgcallicgledbeoc',
     file: 'tuts/accessibility.gif',
   },
-  Decentraleyes: {
-    id: 'ldpochfccmkkmhdbclfhpagapcfdljkj',
-    file: 'core/resources.js',
-  },
   InteractiveFics: {
     id: 'pcpjpdomcbnlkbghmchnjgeejpdlonli',
     file: 'toucan-banner.png',
@@ -2829,17 +2797,9 @@ const extensions = {
     file: 'jquery.min.js',
   },
   'Argent X': { id: 'dlcobpjiigpikoobohmabehhmhfoodbb', file: 'inpage.js' },
-  'XB, block all ads': {
-    id: 'hefagnpnacabcobofkfodcoiilmjbpkh',
-    file: 'web_accessible_resources/1x1.gif',
-  },
   'Functionize Architect': {
     id: 'iojgmnipokofkeihgnlhmmmchpfchonk',
     file: 'popup/popup.html',
-  },
-  'Aqui tem pontos Livelo!': {
-    id: 'acdpmmdcopboeimeaokoadbinndnmaep',
-    file: 'https://static.pontoslivelo.com.br/content/img/extensao/json/parceiros_banners.json',
   },
   Phantombuster: {
     id: 'mdlnjfcpdiaclglfbdkbleiamdafilil',
@@ -4554,4 +4514,5 @@ const extensions = {
     file: 'images/shareaholic_button_230_bw.png',
   },
 };
+
 export default extensions;
