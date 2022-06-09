@@ -2698,5 +2698,1860 @@ const extensions = {
     id: 'jfofijpkapingknllefalncmbiienkab',
     file: 'block_page_template.html',
   },
+  'Clean All - History & Cache Cleaner': {
+    id: 'elidgjfpciimeeeoeneeiifkmhadhkeh',
+    file: 'img/active.svg',
+  },
+  'Tango: screenshots, training, & documentation': {
+    id: 'lggdbpblkekjjbobadliahffoaobaknh',
+    file: 'index.html',
+  },
+  'JSON Viewer Pro': {
+    id: 'eifflpmocdbdmepbjaopkkhbfmdgijcc',
+    file: 'js/main.js',
+  },
+  'Screen Capture': {
+    id: 'ghihpjhpgdepnohngpgfcmcijmkggpaf',
+    file: 'js/page_context.js',
+  },
+  'Norton Safe Search Enhanced': {
+    id: 'eoigllimhcllmhedfbmahegmoakcdakd',
+    file: 'content/ui/SiteRatingPane.html',
+  },
+  'Meet auto admit': {
+    id: 'ceofheakaalaecnecdkdanhejojkpeai',
+    file: 'images/record.png',
+  },
+  'Scrible Toolbar': {
+    id: 'lijhjhlnfifgoabbihoobnfapogkcjgk',
+    file: 'signed-in.html',
+  },
+  'AMZ Suggestion Expander': {
+    id: 'cpeaihkccbeemkfefcapijechkbfjlhb',
+    file: 'images/download.png',
+  },
+  'AODocs - Smartbar for Google Workspace': {
+    id: 'aikbehojjdffmangolfbohjdigfdnepa',
+    file: 'manifest.json',
+  },
+  'Flash Player Emulator 2022': {
+    id: 'ecbnojockcgfohpopbphhgefkfbigcej',
+    file: 'external/player-embed.html',
+  },
+  'Privacy Extension For WhatsApp Web': {
+    id: 'jbojhlhhggfmmkpefknmbdhlaghehini',
+    file: 'images/statusOn.png',
+  },
+  'The Great Suspender': {
+    id: 'jaekigmcljkkalnicnjoafgfjoefkpeg',
+    file: 'suspended.html',
+  },
+  'DSers - AliExpress.com Product Importer': {
+    id: 'mmanaflgaempokjfbeeabkadnkoidjam',
+    file: 'assets/images/logo.svg',
+  },
+  'TLDR This - Free automatic text summary tool': {
+    id: 'jjmnbidkmmabkalampbilajnheeokpoj',
+    file: 'img/icon128.png',
+  },
+  'Reader Mode': { id: 'llimhhconnjiflfimocjggfjdlmlhblm', file: 'app.html' },
+  'Qantas Shopping Points-Prompter': {
+    id: 'jchomknmfdaeojlimglgebnjlijedgnk',
+    file: 'assets/icons/offer_available_32x32.png',
+  },
+  'Passbolt - Open source password manager': {
+    id: 'didegimhafipceonhjepacocaffmoppf',
+    file: '_metadata/verified_contents.json',
+  },
+  'Microsoft Outlook': {
+    id: 'ajanlknhcmbhbdafadmkobjnfkhdiegm',
+    file: 'kkpalkknhlklpbflpcpkepmmbnmfailf/auth.html',
+  },
+  'MicroStrategy HyperIntelligence': {
+    id: 'ikaoafechdeidffgniffdhdckeclcdhf',
+    file: 'js/card_iframe.bundle.js',
+  },
+  WebSigner: {
+    id: 'lhelgailafdbgpkflhoifeebgohnnnpc',
+    file: 'manifest.json',
+  },
+  'AdBlock Stream': {
+    id: 'npknjhekabepaannekikfhjbjgjhlbpf',
+    file: '128.png',
+  },
+  'Outreach Everywhere': {
+    id: 'chmpifjjfpeodjljjadlobceoiflhdid',
+    file: 'assets/content/bridge.html',
+  },
+  'Dolby Voice 1.2': {
+    id: 'kaimfhiiegblglllpkcpoegelgefonef',
+    file: 'dolbyvoice.extension',
+  },
+  Guru: { id: 'mklbhckkgddhlcdagmobdmnadpjokkkn', file: '0.js' },
+  'Download Facebook videos': {
+    id: 'hgknmjhmcbimcpdmmfeafjbdccaheaeg',
+    file: 'parse.js',
+  },
+  Plug: {
+    id: 'cfbfdhimifdmdehjmkdobpcjfefblkjm',
+    file: 'js/inpage.bundle.js',
+  },
+  'eidReader Plugin Chrome Extension': {
+    id: 'kcnofmiceklfkodhdhhjcfjhdepfobaf',
+    file: 'wyrmhole.js',
+  },
+  'ReclameAqui+': {
+    id: 'fhamhppabjaafimidmelnmpfangjdnhj',
+    file: 'analytics.js',
+  },
+  'DjVu.js Viewer': {
+    id: 'bpnedgjmphmmdgecmklcopblfcbhpefm',
+    file: 'viewer.html',
+  },
+  'Google Meet Attendees & Breakout Rooms': {
+    id: 'olmgpgbhojeoalaimckcpgkadjkejacl',
+    file: 'js/copy.simple.user.js',
+  },
+  'Fuze for Chrome': {
+    id: 'kcehcblfpidimbihdfophhhdejckolgh',
+    file: 'images/popup/person-icon.png',
+  },
+  'Solflare Wallet': {
+    id: 'bhhhlbepdkbapadjdnnojkbgioiodbic',
+    file: 'inpage.js',
+  },
+  'Codeplug.in [Generic Version]': {
+    id: 'lbkdbeojajhofdpbkkideaoipoejhedp',
+    file: 'images/clock.png',
+  },
+  'QR Code Generator': {
+    id: 'lkdokbndiffkmddlfpbjiokmfkafmgkm',
+    file: 'jquery.min.js',
+  },
+  'Argent X': { id: 'dlcobpjiigpikoobohmabehhmhfoodbb', file: 'inpage.js' },
+  'XB, block all ads': {
+    id: 'hefagnpnacabcobofkfodcoiilmjbpkh',
+    file: 'web_accessible_resources/1x1.gif',
+  },
+  'Functionize Architect': {
+    id: 'iojgmnipokofkeihgnlhmmmchpfchonk',
+    file: 'popup/popup.html',
+  },
+  'Aqui tem pontos Livelo!': {
+    id: 'acdpmmdcopboeimeaokoadbinndnmaep',
+    file: 'https://static.pontoslivelo.com.br/content/img/extensao/json/parceiros_banners.json',
+  },
+  Phantombuster: {
+    id: 'mdlnjfcpdiaclglfbdkbleiamdafilil',
+    file: 'assets/buster-icon-48.png',
+  },
+  'Adverra Facebook Tool': {
+    id: 'ohieekeimldcphmfhfooogcdmlmgomom',
+    file: '_metadata/verified_contents.json',
+  },
+  Sollet: { id: 'fhmfendgdocmcbmfikdcogofphimnkno', file: 'script.js' },
+  'Vex 5 Game': {
+    id: 'hpneobeplmfdahlecoofjnbdkediijof',
+    file: 'assets/images/L_R-circle-button.png',
+  },
+  Slido: {
+    id: 'dhhclfjehmpacimcdknijodpjpmppkii',
+    file: 'oauth-callback.html',
+  },
+  'Flash Video Downloader': {
+    id: 'ionpbgeeliajehajombdeflogfpgmmel',
+    file: '128x128.png',
+  },
+  'McAfee Endpoint Security For Mac Web Control': {
+    id: 'kaedchgajfpgipflgbgeeiiajekblklm',
+    file: 'Resources/mcafee.gif',
+  },
+  'Web Vitals': {
+    id: 'ahfhijdlegdabablpippeagghigmibma',
+    file: 'src/browser_action/viewer.css',
+  },
+  'Flash Player for Web': {
+    id: 'nggcofmehaobnolkeaemkchbceihlkoj',
+    file: 'assets/static/images/added.svg',
+  },
+  'Movie Finder': {
+    id: 'jdakbaajckankfaadpapgnnlealoigaj',
+    file: 'img/icon16.png',
+  },
+  'Secret Server Web Password Filler': {
+    id: 'mfpddejbpnbjkjoaicfedaljnfeollkh',
+    file: 'icons/128-check.png',
+  },
+  'Адаптер Рутокен Коннект': {
+    id: 'acbchkahfmndkenefkcklofjmipghjjp',
+    file: 'check_rtconnect_extension',
+  },
+  'Word Bank': { id: 'cbcfbhjolgdaepkoaoepejclfggmdand', file: 'go.html' },
+  'Temple Run Game Extension': {
+    id: 'bdgdkpbjcedffdjnndlkbiklnekjjcgb',
+    file: 'icons/128.png',
+  },
+  'ICBC Chrome Extension from Tendyron': {
+    id: 'dlombpffcodogboaljnamhpphpdkjdam',
+    file: 'icon-128.png',
+  },
+  Userlane: {
+    id: 'oaienfpdbimabhlgjlbdpocbogaijnam',
+    file: 'snippets/checkIfUserlaneIsOnThePage.js',
+  },
+  Whereby: { id: 'bbpjcfkgapecndkanjcojnldopjlnmjk', file: 'index.html' },
+  'Meet Extension': {
+    id: 'gcihackglhkfinndffhemefinhlmagfe',
+    file: '3d1819e7-4594-4707-b887-7a184e4f4474.html',
+  },
+  'Smart Searching Tab': {
+    id: 'iacoifmgngnkjphlhpencjhenbngoheg',
+    file: '_locales/en/messages.json',
+  },
+  'CyberArk Identity Browser Extension': {
+    id: 'jifcoadedkediabkmjbflemiblmnbjfk',
+    file: 'content/style-idle.css',
+  },
+  'Oribi Speak': {
+    id: 'jmhaloheodngkciligplhbkgjnpgfhoo',
+    file: 'dictionary.html',
+  },
+  'Slope unblocked': {
+    id: 'jnhijdocabbfbhdjkdckkkfheobmckgf',
+    file: 'images/128.png',
+  },
+  'Ad n Popup-Blocker': {
+    id: 'eofhamhgcjpjmipbpegbjeododphaoep',
+    file: '_locales/de/messages.json',
+  },
+  'CD-ORD Plugin': {
+    id: 'ehgclcimenklkdoppmdonobijicadncj',
+    file: 'js/GoogleDocsHelper.js',
+  },
+  'FEPWeb CMS Digital Signature Extension': {
+    id: 'bcellnicpceplkigjnldelfglfmomhon',
+    file: 'logo_fepweb.png',
+  },
+  'Gale In Context: Opposing Viewpoints': {
+    id: 'ccegammhibcodocaecdilkifoefhljhk',
+    file: 'src/logo.svg',
+  },
+  'Impero Client Extension 8.5.92 - AutoUpdate': {
+    id: 'jonmpbbljdciehhpdfmdiapidmnogkcp',
+    file: 'WebFilter/js/ext_content.js',
+  },
+  MathSolver: {
+    id: 'mkiafkjhhcglgfmcogbbameineefdpcp',
+    file: 'google-docs-integration.js',
+  },
+  'GradeCam Helper': {
+    id: 'lghkdmpjndggpffgahogcopicpednbgm',
+    file: 'prebuilt/FireBreathPromise.js',
+  },
+  NetDocuments: {
+    id: 'fkbfgpllpbhbofnhkefnfeignnanciie',
+    file: 'images/nd.png',
+  },
+  'Mangoboard ColorPicker': {
+    id: 'cmncbfaaiogmfeelmicmaafbibedljpk',
+    file: 'inc/jquery-2.1.0.min.js',
+  },
+  蓝岚日历: {
+    id: 'ldabfnoapcgloeobngjnhckcolcfclli',
+    file: 'js/lib/jquery.js',
+  },
+  'Color Themes for Facebook': {
+    id: 'akcmmnpacjobndnaleljkfhjfkgehghi',
+    file: 'styles/bootstrap.css',
+  },
+  'Protecto for Chrome™': {
+    id: 'jhigofkbdbndeooldpdhmphldaglejlh',
+    file: 'icons/128.png',
+  },
+  'Плагин ГИС НР': {
+    id: 'cdjkkeofanojcdolaakkckkmfcjejlij',
+    file: 'html/popup/terms-of-use.html',
+  },
+  'Sports Search for Chrome™': {
+    id: 'lliehpfkblogcdojndaddkfbiijlgphc',
+    file: 'img/icon16.png',
+  },
+  'IamB: Возвращай кэшбэк с покупок!': {
+    id: 'nnnknmdhancmmdmhfjekhdlekhennjna',
+    file: 'images/arrow.png',
+  },
+  'Fabasoft Folio 2016': {
+    id: 'hiejidhjgjpelfgldfhmnaoahnephhfg',
+    file: 'installed.js',
+  },
+  'IntoWords Cloud': {
+    id: 'nopjifljihndhkfeogabcclpgpceapln',
+    file: 'googlelegacykeyboardeventscontroller.bundle.js',
+  },
+  'Ntko office document control browser plug-in.': {
+    id: 'lppkeogbkjlmmbjenbogdndlgmpiddda',
+    file: 'icons/ntko.png',
+  },
+  'Gemalto Web Signer for Barclays': {
+    id: 'akfldeakecjegioiiajhpjpekomdjnmh',
+    file: 'templates/button.html',
+  },
+  魔方换算: { id: 'kccajphaffpdfjhgcbccfmcpbgogbknh', file: 'js/jquery.js' },
+  'Xpress Sign-On Extension(HDFC-XSO 7.0)': {
+    id: 'gggofcknmbifpfcbkfhkciaccfomadkk',
+    file: 'signon.js',
+  },
+  'DDK Search': { id: 'gjnlgmpokfpkonbdfkjbihmliofkjeok', file: '128.png' },
+  爱汉语: { id: 'jcdnpbkgcioaobolabkfpkfoeohjdcph', file: 'js/jquery.js' },
+  小说阅读助手: {
+    id: 'dknlfmhongfkfakmhhnmgfgnhhcbmldm',
+    file: 'js/lib/jquery.js',
+  },
+  搜个券: {
+    id: 'dochpllpidpeeejofcmjpdmdcbhmdbfh',
+    file: 'js/lib/jquery.js',
+  },
+  'Library Extension': {
+    id: 'chkgcmmjoejpekoegkedcpifgfhpjmec',
+    file: 'common.css',
+  },
+  RUMIWIFI: {
+    id: 'mbiehbednoakmhlmjcpgpciocekdjabp',
+    file: 'inc/routers.html',
+  },
+  'Chromium Wheel Smooth Scroller': {
+    id: 'khpcanbeojalbkpgpmjpdkjnkfcgfkhb',
+    file: 'edgebgbot.png',
+  },
+  'Voice Search': {
+    id: 'hhfkcobomkalfdlmkongnhnhahkmnaad',
+    file: 'lib/iSpeechRecognizer.min.js',
+  },
+  'SmartVideo For YouTube™': {
+    id: 'lnkdbjbjpnpjeciipoaflmpcddinpjjp',
+    file: 'mutationObserver.js',
+  },
+  'Pixiv Toolkit': {
+    id: 'ajlcnbbeidbackfknkgknjefhmbngdnj',
+    file: 'lib/ffmpeg/ffmpeg.min.js',
+  },
+  'Strict Workflow': {
+    id: 'cgmnfnmlficgeijcalkgnnkigkefkbhd',
+    file: 'icons/work_full.png',
+  },
+  AutoScroll: {
+    id: 'occjjkgifpmdgodlplnacmkejpdionan',
+    file: 'data/images/origin/both.svg',
+  },
+  'Screenshot Tool - capture & editor': {
+    id: 'edlifbnjlicfpckhgjhflgkeeibhhcii',
+    file: 'css/injectable.css',
+  },
+  'Ddict Translate: Translator - Dictionary': {
+    id: 'bpggmmljdiliancllaapiggllnkbjocb',
+    file: 'img/spin.gif',
+  },
+  'Web Sender': {
+    id: 'klfaghfflijdgoljefdlofkoinndmpia',
+    file: 'logo/Group 151.png',
+  },
+  'Mixmax: Email Tracking, Templates, Mail Merge': {
+    id: 'ocpljaamllnldhepankaeljmeeeghnid',
+    file: 'src/iframeProxy/proxy.html',
+  },
+  'Screenity - Screen Recorder & Annotation Tool': {
+    id: 'kbbdabhdfibnancpjfhlkhafgdilcnji',
+    file: 'html/camera.html',
+  },
+  'Multi Email Forward by cloudHQ': {
+    id: 'baebodhfcfpnmnpnnheadibijemdlmip',
+    file: 'javascripts/background.js',
+  },
+  'Link Redirect Trace': {
+    id: 'nnpljppamoaalgkieeciijbcccohlpoh',
+    file: 'img/arrow-mask.png',
+  },
+  'Category Tabs for Google Keep™': {
+    id: 'dlahcjmefibiedeecoegjilekaebchhl',
+    file: 'views/options.html',
+  },
+  'Scrum for Trello': {
+    id: 'jdbcdblgjdpmfninkoogcfpnkjmndgje',
+    file: 'images/storypoints-icon.png',
+  },
+  'وسهام | VaSaham': {
+    id: 'ijbhcaojmmmlpkghcejkoadlfhghkkoj',
+    file: 'assets/css/c1.css',
+  },
+  'Ban Checker for Steam': {
+    id: 'canbadmphamemnmdfngmcabnjmjgaiki',
+    file: 'options.html',
+  },
+  'Wistia Video Downloader': {
+    id: 'acbiaofoeebeinacmcknopaikmecdehl',
+    file: 'paypal-icon.svg',
+  },
+  'Translator uLanguage - Translate, Dictionary': {
+    id: 'mnlohknjofogcljbcknkakphddjpijak',
+    file: 'assets/img/icon280.png',
+  },
+  'Premium Sender': {
+    id: 'pggchepbleikpkhffahfabfeodghbafd',
+    file: 'page.js',
+  },
+  Qoala: {
+    id: 'gpilpagnmpikakpjiokkabbigneigoln',
+    file: 'assets/images/icon128.png',
+  },
+  PixelBlock: {
+    id: 'jmpmfcjnflbcoidlgapblgpgbilinlem',
+    file: 'scripts/bootstrap.js',
+  },
+  'TopCashback USA: Get Cashback & Coupons': {
+    id: 'lkmpdpkkkeeoiodlnmlichcmfmdjbjic',
+    file: 'icon-32.png',
+  },
+  'Video Downloader Pro': {
+    id: 'dpfdidlhkillibefedclmbogopmndngo',
+    file: '_locales/cs/messages.json',
+  },
+  'Pocket Must Reads': {
+    id: 'mlnnopicjonfamklpcdfnbcomdlopmof',
+    file: 'fonts/ProximaNova-Reg-webfont.eot',
+  },
+  'Poulpeo : cashback, réductions et codes promo': {
+    id: 'lelehponoadknmgbnmgkcniabpopckme',
+    file: 'cgu.html',
+  },
+  'CSGO Trader - Steam Trading Enhancer': {
+    id: 'kaibcgikagnkfgjnibflebpldakfhfih',
+    file: 'images/scammerbackground.jpg',
+  },
+  dataslayer: { id: 'ikbablmmjldhamhcldjjigniffkkjgpo', file: 'inject.js' },
+  'Koala Inspector - Shopify & Dropship Spy Tool': {
+    id: 'hjbfbllnfhppnhjdhhbmjabikmkfekgf',
+    file: 'windowscript.js',
+  },
+  'EPUB READER': {
+    id: 'mbcgbbpomkkndfbpiepjimakkbocjgkh',
+    file: 'js/reader.js',
+  },
+  'Lightning Extension': {
+    id: 'hfglcknhngdnhbkccblidlkljgflofgh',
+    file: 'dashboard.html',
+  },
+  'Adaware Web Protection': {
+    id: 'nnooggpliipegmffiolegeppbgkclbpi',
+    file: 'loading-page.html',
+  },
+  'Harmony Chrome Extension Wallet': {
+    id: 'fnnegphlobjdpkhecapkijjdkgcjhkib',
+    file: 'inject-script.js',
+  },
+  'Google Verified Access by Duo': {
+    id: 'lojeokmpinkpmpbakfkfpgfhpapbgdnd',
+    file: 'icon19.png',
+  },
+  'Website SEO Checker: Free Audit & Analysis': {
+    id: 'nljcdkjpjnhlilgepggmmagnmebhadnk',
+    file: 'style/page_style.min.css',
+  },
+  'SAML Chrome Panel': {
+    id: 'paijfdbeoenhembfhkhllainmocckace',
+    file: 'panel/assets/javascripts/sameTab.js',
+  },
+  'Pesticide for Chrome (without hover bar)': {
+    id: 'neonnmencpneifkhlmhmfhfiklgjmloi',
+    file: 'pesticide.min.css',
+  },
+  Rabatta: { id: 'imoajpmchijilhegjalddomgffnfhfgj', file: 'popup.html' },
+  'Watch Netflix Together': {
+    id: 'fdjglnlhapkoahdmanogpccpmmpnakje',
+    file: 'js/web-page.js',
+  },
+  'Hive Keychain': {
+    id: 'jcacnejopjdphbnjgfaaobbfafkihpep',
+    file: 'images/logo.png',
+  },
+  'Lansweeper Chromium extension': {
+    id: 'nnpeignlpkmbhjegcbfacbgcnhhjlghp',
+    file: 'js/version.js',
+  },
+  'Slope Unblocked Game': {
+    id: 'nomkmakjljpekcjbckcmffldeekdanpa',
+    file: 'icons/slope-128.png',
+  },
+  'Визуальные закладки': {
+    id: 'lbklnemjebnacdgfdbclbcpfocmgilgn',
+    file: 'assets/img/loaded-empty.png',
+  },
+  Astro: {
+    id: 'keibmolmaeiahiahfgenlaidmokmfcfm',
+    file: 'assets/svg/drop.svg',
+  },
+  'Play HLS': { id: 'hahkjjkedonglpienpfiganogikkkoii', file: 'player.html' },
+  'Single Sign-on Assistant': {
+    id: 'abjopieldicnknjgiplcjgepeijbealm',
+    file: 'Keyboard.min.js',
+  },
+  'Softdreams công cụ ký điện tử': {
+    id: 'bkfagmnjmfjalbbaiphoiiafghlknpog',
+    file: 'page.js',
+  },
+  券大师: {
+    id: 'nebcijjbphjmagedbbbjbkfoccjpapil',
+    file: '_metadata/verified_contents.json',
+  },
+  每天看图: {
+    id: 'gacaaldeffnmknpklelhfgnieehleimh',
+    file: 'js/lib/jquery.js',
+  },
+  'Group Address Book 3 - Sateraito Office': {
+    id: 'kpdfomphidpfpiieklfbadlbnbocgjfc',
+    file: 'images/address.png',
+  },
+  'Price Tracker - Auto Buy, Price History': {
+    id: 'hegbjcdehgihjohghnmdpebepnoalode',
+    file: 'images/eyen.png',
+  },
+  'FlipShope - Price Tracker Extension': {
+    id: 'adikhbfjdbjkhelbdnffogkobkekkkej',
+    file: 'images/Capture.PNG',
+  },
+  'Download Vimeo Videos, Premium': {
+    id: 'phpaiffimemgakmakpcehgbophkbllkf',
+    file: 'public/js/vimeo.js',
+  },
+  'smartUp Gestures': {
+    id: 'bgjfekefhjemchdeigphccilhncnjldn',
+    file: 'icon.png',
+  },
+  'Screen capture, screenshot share/save': {
+    id: 'jmjbgcjbgmcfgbgikmbdioggjlhjegpp',
+    file: 'javascripts/injection.js',
+  },
+  'Surfe.be — the extension with which you earn': {
+    id: 'manjolceoachljppbjhfgkoomnlidkna',
+    file: 'fonts/Montserrat.woff2',
+  },
+  'New tab page by start.me': {
+    id: 'cfmnkhhioonhiehehedmnjibmampjiab',
+    file: 'popup.html',
+  },
+  'Pague Menos Be!Tech': {
+    id: 'ejhkmnhjkbekmfohoipicmpmjdbofdhm',
+    file: 'external/sizzle.min.js',
+  },
+  'ySense Addon': {
+    id: 'hjnhcgkngeeahimbfhejeaiijecekhba',
+    file: 'img/ysense_icon_48.png',
+  },
+  'Dark Night Mode': {
+    id: 'bhbekkddpbpbibiknkcjamlkhoghieie',
+    file: 'css/InboxGoogle.css',
+  },
+  'Auto Admit for Google Meet': {
+    id: 'epemkdedgaoeeobdjmkmhhhbjemckmgb',
+    file: 'icons/icon-512.png',
+  },
+  'Urban Shield': {
+    id: 'almalgbpmcfpdaopimbdchdliminoign',
+    file: 'bg/proxy-script.js',
+  },
+  'Scratch Addons': {
+    id: 'fbeffbjdlemaoicjdapfpikkikjoneco',
+    file: 'content-scripts/inject/l10n.js',
+  },
+  'OctoShop - In-Stock Alerts and Compare Prices': {
+    id: 'ahajkaoongodcmoohkcceoklokapadfh',
+    file: 'static/media/cash_register.mp3',
+  },
+  'User Agent Switcher, URL sniffer': {
+    id: 'ljfpjnehmoiabkefmnjegmpdddgcdnpo',
+    file: 'options.html',
+  },
+  'FlowCrypt: Encrypt Gmail with PGP': {
+    id: 'bnjglocicdkmhmoohhfkfkbbkejdhdgc',
+    file: 'css/webmail.css',
+  },
+  'e-Dnevnik Plus': {
+    id: 'bcnccmamhmcabokipgjechdeealcmdbe',
+    file: 'app/index.html',
+  },
+  'Separate Window': {
+    id: 'cbgkkbaghihhnaeabfcmmglhnfkfnpon',
+    file: 'js/iframe.js',
+  },
+  'Annotate: Web Annotations with Screen Sharing': {
+    id: 'gdojjgflncpbcfmenbkndfhoamlhajmf',
+    file: 'ScreenShot.png',
+  },
+  'Ugly Email': {
+    id: 'ldgiafaliifpknmgofiifianlnbgflgj',
+    file: 'uglyemail.js',
+  },
+  'Tide - Focus Timer & White Noise': {
+    id: 'lmbegcmkonokdjbhbamhpmkihpachdbk',
+    file: 'tide_128.png',
+  },
+  'CroxyProxy Free Web Proxy': {
+    id: 'lmmpgfjnchldhcieiiegcpdmaidkaanb',
+    file: 'shared/images/test.png',
+  },
+  'User-Agent Switcher': {
+    id: 'kchfmpdcejfkipopnolndinkeoipnoia',
+    file: 'js/jquery.js',
+  },
+  'Universal Video Downloader': {
+    id: 'cogmkaeijeflocngklepoknelfjpdjng',
+    file: '_locales/ar/messages.json',
+  },
+  '2048 Game': { id: 'fkceepiaefcdabdbnecamhdgkjenghkk', file: '2048.png' },
+  'XDEFI Wallet': {
+    id: 'hmeobnfnfcmdkdcmlblgagmfpfboieaf',
+    file: 'js/inPage.bundle.js',
+  },
+  'React: Emoji, GIFs & Filters for Google Meet': {
+    id: 'odlccijpiadmfoddfbikkicnbdeneabm',
+    file: 'assets/feedback_icon.png',
+  },
+  'Scrollbar Customizer': {
+    id: 'flffekjijpabhjgpoapooggncnmcjopa',
+    file: 'imgs/arrow_chrome_default_h_dec.png',
+  },
+  'Soapbox — Video Recorder': {
+    id: 'lmepjnndgdhcgphilomlfekmgnnmngbi',
+    file: 'index.html',
+  },
+  Paint: { id: 'ejllkedmklophclpgonojjkaliafeilj', file: 'images/eraser.svg' },
+  Highlighter: {
+    id: 'fdfcjfoifbjplmificlkdfneafllkgmn',
+    file: 'src/hoverTools/hoverTools.html',
+  },
+  Rajiko: {
+    id: 'ejcfdikabeebbgbopoagpabbdokepnff',
+    file: 'ui/inspect_start.js',
+  },
+  'Tripadvisor Browser Button': {
+    id: 'oiekdmlabennjdpgimlcpmphdjphlcha',
+    file: 'newuser-en.html',
+  },
+  'Visual Inspector': {
+    id: 'efaejpgmekdkcngpbghnpcmbpbngoclc',
+    file: 'resources/commentbox.html',
+  },
+  'Mouse Dictionary': {
+    id: 'dnclbikcihnpjohihfcmmldgkjnebgnj',
+    file: 'data/rule.json',
+  },
+  'Revolut Shopper': {
+    id: 'hdlehfdjcalidklijenibmpcdgjfmafn',
+    file: 'foreground.html',
+  },
+  'ShadowPay Trademanager': {
+    id: 'obhadkdgdffnnbdfpigjklinjhbkinfh',
+    file: 'libs/injected.js',
+  },
+  'Better PathOfExile Trading': {
+    id: 'fhlinfpmdlijegjlpgedcmglkakaghnk',
+    file: 'assets/images/bookmark-folder/alchemy.png',
+  },
+  'Influencer Analytics by Upfluence': {
+    id: 'nogempgplicnckhcmgjjjgflmipmbgaf',
+    file: 'variables-sharing.js',
+  },
+  'Zoho Vault': {
+    id: 'igkpcodhieompeloncfnbekccinhapdb',
+    file: 'html/ZVaultGetPP.html',
+  },
+  'FreeConferenceCall.com Scheduler': {
+    id: 'mfhjonocnlnodflomblbjnjdpllkeljo',
+    file: 'resources/images/logotype_small.png',
+  },
+  'BigSeller - Product Scraper': {
+    id: 'kkfocohhekldeddhkllgofalggnlhhae',
+    file: 'images/128x128.png',
+  },
+  'Add to Buyee': {
+    id: 'ocjpgibbldacmpedgjgmcdcikjeopnpb',
+    file: 'data/images/buyee_heart_white.svg',
+  },
+  'Writer - Extension & Clipper': {
+    id: 'ikfjgjdcechliibmcjnaoabbfjabbaoc',
+    file: 'js/executescript.js',
+  },
+  vLex: {
+    id: 'gjdimoodoalmblikhoicpcfnhlkkghgf',
+    file: 'google-iframe/search.html',
+  },
+  'Microsoft Solitaire Collection with Search': {
+    id: 'acehchockcmgigjilbjhecnepiohkfld',
+    file: 'images/solitaire32.png',
+  },
+  ZilPay: { id: 'klnaejjgbibmhlephnhpmaofohgkpgkd', file: 'inpage.js' },
+  'Accessibility Insights for Web': {
+    id: 'pbjjkligggfmakdaogkfomddhfmpjeni',
+    file: 'insights.html',
+  },
+  'Screen Share': {
+    id: 'kihbmdbdahlekggklbfbgmnkifcmfcip',
+    file: 'icon.png',
+  },
+  'Crypto.com | Wallet Extension': {
+    id: 'hifafgmccdpekplomjjkcfgodnhcellj',
+    file: 'inpage-content.js',
+  },
+  'Slope Wallet': {
+    id: 'pocmplpaccanhmnllbbkpgfliimjljgo',
+    file: 'js/inpage-script.js',
+  },
+  'UET Tag Helper (by Microsoft Advertising)': {
+    id: 'naijndjklgmffmpembnkfbcjbognokbf',
+    file: 'images/icon_100x100.png',
+  },
+  'Affirm: Buy Now, Pay Later': {
+    id: 'cmfijaapnnkcglahdngmjnhkfnkihkbg',
+    file: 'assets/branding.json',
+  },
+  'Glider Screen': {
+    id: 'mcekgmccnieoopjfhjoekehkjkojjnfd',
+    file: 'icon.png',
+  },
+  JSONView: { id: 'gmegofmjomhknnokphhckolhcffdaihd', file: 'viewer.css' },
+  'Keeper® Password Manager & Digital Vault ': {
+    id: 'kbedblbpfmeicfpadihimgombbafaeeh',
+    file: 'content_scripts/prompt/prompt.html',
+  },
+  itemscout: {
+    id: 'ecmeogcbcoalojmkfkmancobmiahaigg',
+    file: 'popup/popup.html',
+  },
+  'Senso Client': {
+    id: 'jnhblfnklpfpbbadlfbikhhifadinfho',
+    file: 'gDocSetFlags.js',
+  },
+  HttpWatch: {
+    id: 'dajhhgiioackgdldomhppobgjbinhimh',
+    file: 'recording_started.htm',
+  },
+  'DisplayNote Extension': {
+    id: 'dbfegieohdkcnaomlgefdlpnbdhiiknh',
+    file: 'images/icon48.png',
+  },
+  'Fabasoft Client': {
+    id: 'alcgpfgkdjbabelklflpfkooadcfgoao',
+    file: 'installed.js',
+  },
+  'We Heart It': {
+    id: 'iblenkmcolcdonmlfknbpbgjebabcoae',
+    file: 'css/bookmarklet.css',
+  },
+  'Fast Delete Messages': {
+    id: 'cahhjpmdnfhfkgldefihhcgkaalllbld',
+    file: '_metadata/verified_contents.json',
+  },
+  Bilômetro: {
+    id: 'mjfigbdcambkldpnmdigcfpncpeekedd',
+    file: 'external/jquery-3.3.1.min.js',
+  },
+  'Send to Kindle (by Klip.me)': {
+    id: 'ipkfnchcgalnafehpglfbommidgmalan',
+    file: 'css/base.css',
+  },
+  'Notification Center: Messenger Groups Events': {
+    id: 'edoadhjjfgeniilpmnoaddaihjkkhheb',
+    file: 'img/01.png',
+  },
+  'Plus for Trello (time track, reports)': {
+    id: 'gjjpophepkbhejnglcmkdnncmaanojkf',
+    file: 'manifest.json',
+  },
+  'MyPoints Score': {
+    id: 'mcglgmippekbdbmniknikdgkmnnpdnmh',
+    file: 'assets/icons/128.png',
+  },
+  AliDropship: { id: 'jlnhdnbbikjkdejminhdpmejldiapdgn', file: 'getFrameId' },
+  'Email Finder - LeadLeaper': {
+    id: 'iojojcfflmfcejodomoafimdiianbgfe',
+    file: 'css/images/bperson.png',
+  },
+  'Save Google Docs & Sheets to other clouds ...': {
+    id: 'iobcbdgacfkninlcbphihhdlkobkehia',
+    file: 'javascripts/jquery-1.4.4.js',
+  },
+  'Trend Micro Check - Browser Security': {
+    id: 'imhhfjfjfhjjjgaedcanngoffjmcblgi',
+    file: '_locales/de/adblock.json',
+  },
+  'Rain Alarm Extension': {
+    id: 'olnconaknblgbkfgknkfmmfhhbebkekd',
+    file: 'launcher.png',
+  },
+  'Attendance for Google Meet™': {
+    id: 'fdnipcdebaagjpicpbkildmcefflobhn',
+    file: 'img/128.png',
+  },
+  'Subtitles For YouTube': {
+    id: 'oanhbddbfkjaphdibnebkklpplclomal',
+    file: 'open-subtitles.html',
+  },
+  'Sortd for Gmail': {
+    id: 'aohlfneeliakfcefeffppfplagbccbni',
+    file: 'img/close.svg',
+  },
+  'G App Launcher (Customizer for Google™)': {
+    id: 'ponjkmladgjfjgllmhnkhgbgocdigcjm',
+    file: 'views/embed.html',
+  },
+  'EXIF Viewer Pro': {
+    id: 'mmbhfeiddhndihdjeganjggkmjapkffm',
+    file: 'camera_blue-16.png',
+  },
+  'Print Edit WE': {
+    id: 'olnblpmehglpcallpnbgmikjblmkopia',
+    file: 'toolbar.html',
+  },
+  'Better TweetDeck': {
+    id: 'micblkellenpbfapmcpcfhcoeohhnpob',
+    file: 'build/inject.js',
+  },
+  BlockTube: {
+    id: 'bbeaicapbccfllodepmimpkgecanonai',
+    file: 'src/scripts/inject.js',
+  },
+  Qmee: {
+    id: 'mbaanpgkpkoamihninlcegnjclcpibde',
+    file: 'views/sidebar_template.html',
+  },
+  'Viewport Resizer – Responsive Testing Tool': {
+    id: 'kapnjjcfcncngkadhpmijlkblpibdcgm',
+    file: 'css/resizer.min.css',
+  },
+  'Simple Translate': {
+    id: 'ibplnjkanclpjokhdolnendpplpjiace',
+    file: 'icons/512.png',
+  },
+  SpotiAds: {
+    id: 'mghhlojofjipigjobacbjdngmjafdeim',
+    file: 'injected/ads_removal.js',
+  },
+  'Grade Transferer': {
+    id: 'boapjdphamdkfjfdibbdpcemcdncfhjf',
+    file: 'modal.html',
+  },
+  'CLV Wallet': { id: 'nhnkbkgjikgcigadomkphalanndcapjk', file: 'inpage.js' },
+  'United Airlines MileagePlus® Shopping button': {
+    id: 'apcjkhjbhapedgbekhlhdkidpohpkfne',
+    file: 'img/activation/0.png',
+  },
+  'Edge Translate': { id: 'bocbaocobfecmglnmeaeppambideimao', file: '33.js' },
+  'Video Downloader Plus  ': {
+    id: 'cjljdgfhkjbdbkcdkfojleidpldagmao',
+    file: 'assets/128.png',
+  },
+  'Download All Images': {
+    id: 'nnffbdeachhbpfapjklmpnmjcgamcdmm',
+    file: 'data/inject/core/index.html',
+  },
+  'JSON Viewer ': {
+    id: 'aimiinbnnkboelefkjlenlgimcabobli',
+    file: 'assets/options.html',
+  },
+  'Seamless.AI': {
+    id: 'dbepenphjfofmnjmlacfcdehikakmaap',
+    file: 'flyout.html',
+  },
+  'MUA Web Unicode Converter': {
+    id: 'jnmdbgnckbbmblkbammnfagdmikchhnp',
+    file: 'YoeYar-One.ttf',
+  },
+  'Block Site': {
+    id: 'lebiggkccaodkkmjeimmbogdedcpnmfb',
+    file: 'data/blocked/index.html',
+  },
+  'Word to PDF Converter': {
+    id: 'ngcdedagijmjiaoihedckijmghblhgal',
+    file: 'style.css',
+  },
+  'Text to Speech for Google Chrome™': {
+    id: 'ihjphbgdciilclbpcmagkacpohgokpep',
+    file: 'data/resources/selection.css',
+  },
+  Pricy: { id: 'jnpfnacconjipomhfkphknjfmcnhagpb', file: 'icon48.png' },
+  'FBA calculator for Amazon Sellers : SellerApp': {
+    id: 'bkdkbhjcfhfkmkbffkdklaiepfbllbgg',
+    file: 'app.html',
+  },
+  'Качай аудио с вк': {
+    id: 'hdfadhmdfllnfbckdhiikebblicdggbb',
+    file: 'assets/images/download2.png',
+  },
+  'Better History': {
+    id: 'egehpkpgpgooebopjihjmnpejnjafefi',
+    file: 'assets/templates/header.html',
+  },
+  'CSDN·浏览器助手': {
+    id: 'kfkdboecolemdjodhmhmcibjocfopejo',
+    file: 'css/jsonPages.css',
+  },
+  'Maiar DeFi Wallet': {
+    id: 'dngmlblcodfobpdpecaadgfbcggfjfnm',
+    file: 'inpage.js',
+  },
+  'Helperbird for Chrome': {
+    id: 'ahmapmilbkfamljbpgphfndeemhnajme',
+    file: 'fonts/custom/opendyslexic/bold.otf',
+  },
+  'Steam Profile Assistant': {
+    id: 'mjmabgdoainclinjecbkdancpamdiaih',
+    file: 'massUpload.js',
+  },
+  HTMLエラーチェッカー: {
+    id: 'ohdllebchmmponnofchalfkegpjojcaf',
+    file: 'img/icon.png',
+  },
+  'Screen Capture ': {
+    id: 'pmnphobdokkajkpbkajlaiooipfcpgio',
+    file: 'libs/jquery.js',
+  },
+  'Level up for Dynamics 365/Power Apps': {
+    id: 'bjnkkhimoaclnddigpphpgkfgeggokam',
+    file: 'scripts/Sdk.Soap.min.js',
+  },
+  'Miro Web Clipper': {
+    id: 'ecfnenchgjbicgaooadfdmcojkcmjblk',
+    file: 'img/icon_48.png',
+  },
+  Wakelet: { id: 'iomokcfebnfiflpgcpcijfkfmafgkjgh', file: 'inject.html' },
+  'FUTBIN Updater': {
+    id: 'beejegoimbgpafoobegjmhjnehlmnbcn',
+    file: 'content/hook.js',
+  },
+  Writer: { id: 'hngnkmianenpifegfoggnkamjnffiobn', file: 'favicon.png' },
+  'AODocs - Universal File Opener': {
+    id: 'kldfpiebhefepgbjknnlgpeichadmdib',
+    file: 'manifest.json',
+  },
+  'Background blur for Google Meet': {
+    id: 'jjbbcihejfopbmbbmjjmhkjjofkgkoog',
+    file: 'assets/feedback_icon.png',
+  },
+  Eternl: {
+    id: 'kmhcihpebfmpgmihbkipmjlmmioameka',
+    file: 'trezor-usb-permissions.html',
+  },
+  'Startpage Privacy Protection': {
+    id: 'cdkhedhmncjnpabolpjceohohlefegak',
+    file: 'options.html',
+  },
+  'BlueJeans for Google Calendar': {
+    id: 'iedelpfmeejalepbpmmfbfnfoeojohpp',
+    file: 'manifest.json',
+  },
+  'Newz Finder': {
+    id: 'hfhfmkmokccaciopjahpkmfdbkjbhmfp',
+    file: 'img/basket.svg',
+  },
+  'Online Seller Addon': {
+    id: 'cmjihoeplpkmlmbbiiognkceoechmand',
+    file: 'img/icon128.png',
+  },
+  'Go Links': {
+    id: 'mdkgfdijbhbcbajcdlebbodoppgnmhab',
+    file: 'icons/icon16.png',
+  },
+  'Powtoon Capture - Screen and Webcam Recorder': {
+    id: 'hgphbmgpkindhnldhjafhfflhjodpfmn',
+    file: 'camera.html',
+  },
+  'Save to Collect': {
+    id: 'flblmacldekcjcoockeoggionmhflecp',
+    file: 'notification.html',
+  },
+  'Datalayer Checker': {
+    id: 'ffljdddodmkedhkcjhpmdajhjdbkogke',
+    file: 'js/datalayer-checker.js',
+  },
+  'Fake news debunker by InVID & WeVerify': {
+    id: 'mhccpoafgdgbhnjfhkcmgknndkeenfhe',
+    file: 'popup.html',
+  },
+  'Chrome IG Story': {
+    id: 'cnmhknopedmipekbmmilfjgpefeonmog',
+    file: 'html/photoswipe.html',
+  },
+  RappiAliados: {
+    id: 'gikbmhhfgplcjdgddkomnlhcpadglmom',
+    file: 'assets/deactivated_alarm.mp3',
+  },
+  'Oasis Wallet': {
+    id: 'ppdadbejkmjnefldpcdjhnkpbjkikoip',
+    file: 'oasis-xu-frame.html',
+  },
+  Rocketrip: {
+    id: 'jonlhhmennanlmjjamfllhlcklggpjkj',
+    file: 'assets/background.js',
+  },
+  'Auto.Sky Platform Plugin': {
+    id: 'kpbgepniagkhbpbnbelghdjcmgladefd',
+    file: 'main.html',
+  },
+  'KardiaChain Wallet': {
+    id: 'pdadjkfkgcafgbceimcpbkalnfnepbnk',
+    file: 'inpage.js',
+  },
+  'VisualSP Training for Microsoft 365': {
+    id: 'ohdihpdgfenligmhnmldmiabdhflokkh',
+    file: 'images/VisualSP_128x128.png',
+  },
+  'Dokobit e-signing and e-identification': {
+    id: 'cmcgkhihcjkdlgiackjkpcjpbgbpdmgb',
+    file: 'isign-page.js',
+  },
+  'ProxyPlugin2 CMJ Plugin Adapter': {
+    id: 'dpkefahlefbmfgfgfoppbpkacgdmadpp',
+    file: 'wyrmhole.js',
+  },
+  'ReadSpeaker® TextAid for Chrome': {
+    id: 'hjhgdemcnjlhekapcjegdlckfhbmfokc',
+    file: 'css/style.css',
+  },
+  'Sphere Lite': {
+    id: 'bhmibpbadaengbikmoglphhlhioajdjn',
+    file: 'html/widget/cameraWidget.html',
+  },
+  'Think Exam': { id: 'bbebbhmelpcfmijoanocdliephmoahln', file: 'icon.png' },
+  'FEV Tutor Screen Share': {
+    id: 'aghldgpdpmfhlmlojfpeeepcjdopcmgn',
+    file: 'icon.png',
+  },
+  'myViewBoard extension': {
+    id: 'bflolcmnokpcochfhappdfipeficedjf',
+    file: 'icon.png',
+  },
+  'Bitglass Google Docs Offline': {
+    id: 'gmbfmcpekcgdhklibbplodlikahhmnag',
+    file: 'page_embed_script.js',
+  },
+  'OPALS Catalog Search Extension': {
+    id: 'kfjfndohjinjlkfhgbmginlaomcagikg',
+    file: 'ng-tmpl/opl-rs.html',
+  },
+  'Travel extension': {
+    id: 'hkhoplnhcalogofmpojjibalhifgdomb',
+    file: '_metadata/verified_contents.json',
+  },
+  'Home - New Tab Page': {
+    id: 'ehhkfhegcenpfoanmgfpfhnmdmflkbgk',
+    file: 'css/search_badge.css',
+  },
+  'Tab Snooze': {
+    id: 'pdiebiamhaleloakpcgmpnenggpjbcbm',
+    file: 'images/beta_extension_icon_128.png',
+  },
+  'ChinaHelper - Shop assistant in Chinese stores': {
+    id: 'lmfbagjnfegjafocookgkkjedmmojopj',
+    file: 'js/lib/jquery-2.1.4.js',
+  },
+  'Clearly Reader - Your missing reader mode': {
+    id: 'odfonlkabodgbolnmmkdijkaeggofoop',
+    file: '_locales/en/messages.json',
+  },
+  'PP谷歌访问助手-为国出征-国庆版': {
+    id: 'kahndhhhcnignmbbpiobmdlgjhgfkfil',
+    file: 'nav.html',
+  },
+  'Midnight Lizard': {
+    id: 'pbnndmlekkboofhnbonilimejonapojg',
+    file: 'js/page-script.js',
+  },
+  PhotoMania: {
+    id: 'ohodmcahedcphoipgooelhjcfahodhcj',
+    file: 'resources/css/general.css',
+  },
+  'Simple Gmail Notes': {
+    id: 'jfjkcbkgjohminidbpendlodpfacgmlm',
+    file: 'lib/jquery-3.1.0.min.js',
+  },
+  'RDS Bar': {
+    id: 'jlipcaflaocihnmlhnhcfombgmmfglho',
+    file: 'content/integrations/search/popup.html',
+  },
+  'Coin98 Wallet': {
+    id: 'aeachknmefphepccionboohckonoeemg',
+    file: './popup.html',
+  },
+  'Panda 5 - Your favorite websites in one place': {
+    id: 'haafibkemckmbknhfkiiniobjpgkebko',
+    file: 'index.html',
+  },
+  'Contacts+ for Gmail': {
+    id: 'cnaibnehbbinoohhjafknihmlopdhhip',
+    file: 'images/app-gmail.png',
+  },
+  'Night Mode Pro': {
+    id: 'gbilbeoogenjmnabenfjfoockmpfnjoh',
+    file: 'data/content_script/inject.css',
+  },
+  'CLEAN crxMouse Gestures': {
+    id: 'mjidkpedjlfnanainpdfnedkdlacidla',
+    file: 'image/u.png',
+  },
+  'MediaSave. Download music free': {
+    id: 'hfgbpkkdodfihabamnkhoaeamkdhnoec',
+    file: 'app/ui/ui.html',
+  },
+  'CouponCabin Sidekick - Coupons & Cash Back': {
+    id: 'pcihjlbjjghnbohanlafcldoddloecfo',
+    file: 'content/styles.css',
+  },
+  'Milanote Web Clipper': {
+    id: 'mipimgcmndeggldjcbjfeogcpoafomhl',
+    file: 'css/drawer.css',
+  },
+  'Canjes en Amazon.com con LATAM Pass': {
+    id: 'okembgocccnjoiaafmdedmhodcoalbgg',
+    file: 'icon-small-128.png',
+  },
+  'Reactions for Google Meet': {
+    id: 'hicfolagolebmjahkldfohbmphcoddoh',
+    file: 'img/100.png',
+  },
+  VT4Browsers: {
+    id: 'efbjojhplkelaegfbieplglfidafgoka',
+    file: 'icons/vt-logo.svg',
+  },
+  'Export for Trello': {
+    id: 'nhdelomnagopgaealggpgojkhcafhnin',
+    file: 'lib/jquery-2.1.0.min.map',
+  },
+  'Tab Modifier': {
+    id: 'hcbgadmbdkiilgpifjgcakjehmafcjai',
+    file: 'img/bullets/bullet-amber-alt.png',
+  },
+  'Shoop Cashback & Gutscheine': {
+    id: 'hacngjmphfcjdfpmfmlngemhddjdncpe',
+    file: 'content/styles.css',
+  },
+  'Taskade - Team Tasks, Notes, Video Chat': {
+    id: 'hcobdfnjjaceclfdjpmmpiknimccjpmf',
+    file: 'popup.html',
+  },
+  'Im not robot captcha clicker': {
+    id: 'ceipnlhmjohemhfpbjdgeigkababhmjc',
+    file: 'options.html',
+  },
+  'Giving Assistant Button': {
+    id: 'abmkpkbghkncelngngaldkhfchgnmnbf',
+    file: 'iframes/iframe.js',
+  },
+  'Text Mode': {
+    id: 'adelhekhakakocomdfejiipdnaadiiib',
+    file: 'imgs/bg/bg_blank_1px.png',
+  },
+  'RuTracker расширение для Chrome': {
+    id: 'hkdppjhidnnlojafjpbcgbcgcgjagbdl',
+    file: 'images/icon_128.png',
+  },
+  'Send Your Email to SMS (text)': {
+    id: 'ipghnlmkjdejhibmialipjeaoobhaofe',
+    file: 'javascripts/background.js',
+  },
+  'Netflix™ Extended': {
+    id: 'gjcgfkhgpaccjpjokgpekpgpphgaanej',
+    file: '_locales/en/messages.json',
+  },
+  'eyeCare - Protect your vision': {
+    id: 'eeeningnfkaonkonalpcicgemnnijjhn',
+    file: 'icon_48.png',
+  },
+  'App for Instagram with DM': {
+    id: 'ablgadjkhamckdjbbjolcbfjdhhcobmo',
+    file: 'img/128.png',
+  },
+  'Invite All Friends for Facebook™': {
+    id: 'nnnlfmcnfphfaobodohdkpnccfneiehe',
+    file: 'content.css',
+  },
+  'Aria2 for Chrome': {
+    id: 'mpkodccbngfoacfalldjimigbofkhgjn',
+    file: 'js/magnet.js',
+  },
+  FoxClocks: {
+    id: 'obcbigljfpgappaaofailjjoabiikckk',
+    file: 'html/statusbar.html',
+  },
+  PhotoShow: {
+    id: 'mgpdnhlllbpncjpgokgfogidhoegebod',
+    file: 'resources/photoShowIcons.woff2',
+  },
+  Seedr: {
+    id: 'abfimpkhacgimamjbiegeoponlepcbob',
+    file: 'assets/jquery-3.3.1.min.js',
+  },
+  'Stories App for Instagram': {
+    id: 'angjmncdicjedpjcapomhnjeinkhdddf',
+    file: 'stories.html',
+  },
+  'TTSReaderX In-Page Text to Speech': {
+    id: 'pakknklefcjdhejnffafpeelofiekebg',
+    file: 'html/popup.html',
+  },
+  'Alaska Airlines Mileage Plan™ Shopping button': {
+    id: 'bpncppnllngfgpcclmpjdlhokgbdkpdh',
+    file: 'img/activation/0.png',
+  },
+  'Fluvid - Screen Video Recorder': {
+    id: 'hfadalcgppcbffdnichplalnmhjbabbm',
+    file: 'template/2faLogin.html',
+  },
+  FastForward: {
+    id: 'icallnadddjmdinamnolclfjanhfoafe',
+    file: 'html/before-navigate.html',
+  },
+  'WordStater для Wordstat - сбор ключевых слов': {
+    id: 'hjlgbdmfljafjdkpgdiefkplpkcjlphh',
+    file: 'js/static/regions.js',
+  },
+  'Listen 1': {
+    id: 'indecfegkejajpaipjipfkkbedgaodbp',
+    file: 'images/favicon.ico',
+  },
+  'Google Meet Virtual Backgrounds': {
+    id: 'edkljafinkpeoglndilllgfnailhkocn',
+    file: 'js/overideDefaultUserMedia.js',
+  },
+  'Bullet Journal - Notes, Lists, Weekly Planner': {
+    id: 'ofokfnlmkfghjcmppfopibknmlhadhbm',
+    file: 'popup.html',
+  },
+  'Grid View For Google Meet': {
+    id: 'mbehpgfjageeapmbabpkdlcmdkggabal',
+    file: 'grid.user.js',
+  },
+  'Detailed SEO Extension': {
+    id: 'pfjdepjjfjjahkjfpkcgfmfhmnakjfba',
+    file: 'js/content.js',
+  },
+  'Viral Launch - Market Intelligence': {
+    id: 'ncbhkghndhoddmbfgddpgafhbnijdadj',
+    file: 'popup/popup.css',
+  },
+  'LostFilm.TV - официальный плагин': {
+    id: 'dhccaifficimfjcpbapjockkipmmlkab',
+    file: 'pages/common.css',
+  },
+  'Broken Link Checker': {
+    id: 'nibppfobembgfmejpjaaeocbogeonhch',
+    file: 'css/main.css',
+  },
+  'Easy Video Finder': {
+    id: 'ledpmklechmkjngjilbfpogiehjbemkj',
+    file: 'img/icon16.png',
+  },
+  'Never Ending Netflix': {
+    id: 'hdadmgabliibighlbejhlglfjgplfmhb',
+    file: 'NEN.js',
+  },
+  'Chomikuj.pl': {
+    id: 'mabmeicndgkgfompmmdkijoamfleoadk',
+    file: 'img/chomik_folder.png',
+  },
+  HeadingsMap: { id: 'flbjommegcjonpdmenkdiocclhjacmbi', file: 'getFrameId' },
+  'Listly - Data Scraper': {
+    id: 'ihljmnfgkkmoikgkdkjejbkpdpbmcgeh',
+    file: 'html/sidepanel/iframe.html',
+  },
+  'Firebug Lite for Google Chrome': {
+    id: 'ehemiojjcpldeipjhjkepfdaohajpbdo',
+    file: '_metadata/verified_contents.json',
+  },
+  'Translate Anywhere': {
+    id: 'hhimhiimpaicidimabokfbdokhpcnmoh',
+    file: 'jq.js',
+  },
+  'Clownfish Voice Changer for Chrome': {
+    id: 'dmgaboifbpokjbdcbnmkcohiondlampj',
+    file: 'contentBody.js',
+  },
+  'Content Site Search Guru': {
+    id: 'fgomgoininjjcilkdpghijnhmlagbndk',
+    file: 'img/amazon-example.svg',
+  },
+  'Math Wallet': {
+    id: 'afbcbjpbpfadlkmhmclhkeeodmamcflc',
+    file: 'injects/bitcoin.js',
+  },
+  '店侦探&看店宝-淘宝卖家数据分析工具': {
+    id: 'mndpomcndmohjljbimojnnfnennikjmk',
+    file: 'assets/css/common.css',
+  },
+  'Among Us Custom Cursor': {
+    id: 'ipfjnikpccdpgjelgomppkdgiokfkjeg',
+    file: 'cur/0.cur',
+  },
+  'IPFS Companion': {
+    id: 'nibjojkomfdiaoajekhjakgkdhaomnch',
+    file: 'icons/ipfs-logo-on.svg',
+  },
+  'Hiro Wallet': {
+    id: 'ldinpeekobnhjjdofggfgjlcehhmanlj',
+    file: 'inpage.js',
+  },
+  'Get Weather Today': {
+    id: 'depnaiojakmmjcdpccbffphcgjghniol',
+    file: 'img/app-bg.png',
+  },
+  'WASender Free Plugin': {
+    id: 'heogilejknffekkbjdjmoamaehdblmnc',
+    file: 'css/lib.css',
+  },
+  'Dragon Medical Web Extension': {
+    id: 'dkidoflkcabkfmcpnndogifoldoegnmk',
+    file: 'nuanria.Chrome.js',
+  },
+  Adminer: { id: 'amolhiihcpdbkjimhlffamgieibhfapi', file: 'adminer-paga.png' },
+  'Snake for Chrome': {
+    id: 'nabjdccbcfponlofkobmigcgfaddnkll',
+    file: 'index.css',
+  },
+  'Talkdesk Click-to-Call Extension': {
+    id: 'adjgicoimjhccdcjgepkmigomegpjplg',
+    file: 'img/favicon.png',
+  },
+  '百度翻译：网页翻译、海淘神器': {
+    id: 'edhchknefojhifoiebpcbkhcjlkkklci',
+    file: 'imgs/map/sound.gif',
+  },
+  'CDKeys.com': {
+    id: 'hegpcfedlbjmemdiemgmmemcbefkhgbb',
+    file: 'img/logo.png',
+  },
+  'Cisco Network Setup Assistant': {
+    id: 'ldlfakmjimohnhnpgnjmjkdnaiegiebg',
+    file: 'image/ise48.png',
+  },
+  'Pixel Combat 2 Game': {
+    id: 'kcmioinhpoafnnoeghbfkebnoiiibbdk',
+    file: 'icons/128.png',
+  },
+  'Google Meet Grid View Fix Oct 2021': {
+    id: 'pcomdonnoilbhljaemmmmlcnhccgipel',
+    file: 'c2.js',
+  },
+  'VIPSearch Pro': {
+    id: 'fbokkfmimngbimjknehdklnfbogppojk',
+    file: 'icon16.png',
+  },
+  'Otter.ai: Transcribe, Record Meeting Notes': {
+    id: 'bnmojkbbkkonlmlfgejehefjldooiedp',
+    file: 'index.html',
+  },
+  'Games Search for Chrome™': {
+    id: 'oppeaknhldjjnfnflbcedipjbnbimhhf',
+    file: 'img/icon16.png',
+  },
+  店小秘助手: { id: 'ioadaikpljilagoddljnamloiebcoopb', file: 'main.html' },
+  '楽天リーベイツ ポイントアシスト': {
+    id: 'accllpimnoffllpeblphooameaofhnah',
+    file: 'img/rakuten/icon-128.png',
+  },
+  'Basketball Legends': {
+    id: 'ffdigckgpggfihldimjbogjeookldfkf',
+    file: 'app-icon.png',
+  },
+  'Space Extension': {
+    id: 'njpoobmgloliplbhnabndlmpbegcpjei',
+    file: '_metadata/verified_contents.json',
+  },
+  'Safety for Gmail™': {
+    id: 'pjbnfpohnepfohjeklbpeekacpellded',
+    file: 'images/space.png',
+  },
+  'Yahoo!簡単セットアップ': {
+    id: 'domfglpmfjkgemkmkabhccodfbbpfofm',
+    file: 'scripts/background.js',
+  },
+  'Croc XML Signer': {
+    id: 'kiijhgpgjnhkhpagmcgihhigiolpogec',
+    file: 'crocxmlsigner.js',
+  },
+  'Multimedia Search': {
+    id: 'ghhajnapghfiefndmedoeoejhnfngpfi',
+    file: 'img/icon16.png',
+  },
+  'Jesus Image Extension': {
+    id: 'lkboiigfopfnefaeiggakidkbgpgkapc',
+    file: '_metadata/verified_contents.json',
+  },
+  'Delete All Messages on Facebook™': {
+    id: 'hdigpgnfpockednepfiinhdjebkmpicn',
+    file: '_metadata/verified_contents.json',
+  },
+  'GameStop Wallet': {
+    id: 'pkkjjapmlcncipeecdmlhaipahfdphkd',
+    file: 'inpage/index.js',
+  },
+  'LikeMe – накрутка лайков и просмотров ВК': {
+    id: 'knkmhklfleegnlkapphbjbjnbilijlhf',
+    file: 'css/style.css',
+  },
+  'SurfEarner - заработок без вложений': {
+    id: 'klebcgndepdaddnadnmphbmjgfkdllke',
+    file: 'main/content/json2html.js',
+  },
+  'X New Tab Page': {
+    id: 'cbmbfafhdccfgdgnbkgogehiklmemkoh',
+    file: 'background.html',
+  },
+  'Track24.ru': {
+    id: 'lfijgegefgcgbfcgjgnhnkclenhfijhk',
+    file: 'img/black-friday-logo-570x326.gif',
+  },
+  'MonkiBu TV y Radios Online': {
+    id: 'phimhnckkaofkllcoledjilakgbeohli',
+    file: 'pages/static/Lato/Lato-Hairline.ttf',
+  },
+  'Invite post likers for Facebook™ - 2021': {
+    id: 'oobofacgjpheigmglnjjlhfolhcamaia',
+    file: 'content.css',
+  },
+  'Chrometana Pro - Redirect Cortana and Bing': {
+    id: 'lllggmgeiphnciplalhefnbpddbadfdi',
+    file: 'success.html',
+  },
+  'Chrome Currency Converter': {
+    id: 'anbfhidldjknonaihbalghlebaijealk',
+    file: 'html/test.html',
+  },
+  XTranslate: { id: 'gfgpkepllngchpmcippidfhmbhlljhoo', file: 'README.md' },
+  Deluminate: {
+    id: 'iebboopaeangfpceklajfohhbpkkfiaa',
+    file: 'deluminate.css',
+  },
+  'Tab Wrangler': {
+    id: 'egnjhciaieeiiohknchakcodbpgjnchh',
+    file: 'img/icon48.png',
+  },
+  'Microsoft Autofill': {
+    id: 'fiedbfgcleddlbcmgdigjgdfcggjcion',
+    file: 'content_scripts/passwordsdropdown.html',
+  },
+  'Gmelius for Gmail': {
+    id: 'dheionainndbbpoacpnopgmnihkcmnkl',
+    file: 'icons/icon128.png',
+  },
+  'Video & Screen Recorder for Work - Drift': {
+    id: 'kfhkikpdmehlpkaiplafjkaicdljldcf',
+    file: 'facecam.html',
+  },
+  'Atavi - bookmark manager': {
+    id: 'jpchabeoojaflbaajmjhfcfiknckabpo',
+    file: 'includes/inject.js',
+  },
+  'Pixiv Downloader': {
+    id: 'fnbkeopcpjainobjebddfcnnknmfipid',
+    file: 'jq.js',
+  },
+  'Email Finder - GetProspect': {
+    id: 'bhbcbkonalnjkflmdkdodieehnmmeknp',
+    file: 'assets/css/common.css',
+  },
+  'ZED: Zoom Easy Downloader': {
+    id: 'pdadlkbckhinonakkfkdaadceojbekep',
+    file: 'images/record.png',
+  },
+  'TeX for Gmail': {
+    id: 'gjnmclkoadjdljnfmbnnhaahilafoeji',
+    file: 'logo128.png',
+  },
+  '京价保 - 京东价保助手': {
+    id: 'gfgkebiommjpiaomalcbfefimhhanlfd',
+    file: 'static/touch-emulator.js',
+  },
+  'Copper CRM for Gmail': {
+    id: 'hpfmedbkgaakgagknibnonpkimkibkla',
+    file: 'assets/AccountOwnerButton.png',
+  },
+  'Bulk Image Downloader': {
+    id: 'facoldpeadablbngjnohbmgaehknhcaj',
+    file: 'content_script.js',
+  },
+  'CloudApp Screen Recorder, Screenshots': {
+    id: 'ojnikmlgjpfiogeijjkpeakbedjhjcch',
+    file: 'popup.html',
+  },
+  littsearch: { id: 'gehgcngjjbengkehfgnciflogmoifiie', file: 'icon.png' },
+  'ORGanizer for Salesforce': {
+    id: 'lojdmgdchjcfnmkmodggbaafecagllnh',
+    file: 'options.html',
+  },
+  'Toby Mini': {
+    id: 'gfdcgfhkelkdmglklfbndgopaihmoeci',
+    file: 'inject.html',
+  },
+  'Cool Cursors for Chrome™': {
+    id: 'empjidjbllcmlgaobahepkijkfmfkjdb',
+    file: 'Icon-512.png',
+  },
+  'BeeCost Trợ lý Mua Sắm': {
+    id: 'hfgkoaengklibhfagaababcngpehggmm',
+    file: 'content/content.css',
+  },
+  'Waalaxy (ex ProspectIn) Prospect on LinkedIn': {
+    id: 'hlkiignknimkfafapmgpbnbnmkajgljh',
+    file: 'assets/128x128.png',
+  },
+  FATRANK: { id: 'jcnfkjjanbdfabigknbedgkfjkljhbdn', file: 'img/csv.png' },
+  'WAMessages - WAMessages Sender.': {
+    id: 'fbkejdngkadphfgbmmhdcjcdemkjcnco',
+    file: 'wamessages.js',
+  },
+  'MagicScroll Web Reader': {
+    id: 'ecldhagehndokdmaiaigoaecbmbnmfkc',
+    file: 'images/next_1.png',
+  },
+  'Tamper Chrome (extension)': {
+    id: 'hifhgpdkfodlpnlmlnmhchnkepplebkb',
+    file: 'tamper-16.png',
+  },
+  'Shinigami Eyes': {
+    id: 'ijcpiojgefnkmcadacmacogglhjdjphj',
+    file: 'data/transphobic.dat',
+  },
+  'Billy Button': {
+    id: 'iaggnolkjmfokghjpmdkcmaoldckdgfk',
+    file: 'assets/icons/128.png',
+  },
+  'Shopstat — Аналитика Wildberries и Ozon': {
+    id: 'epnkgfaomnlopilnejhgndcilhlimndd',
+    file: 'icon128.png',
+  },
+  'Typio Form Recovery': {
+    id: 'djkbihbnjhkjahbhjaadbepppbpoedaa',
+    file: 'html/app.html',
+  },
+  'Scribe: Documentation, SOPs, & Screenshots': {
+    id: 'okfkdaglfjjjfefdcppliegebpoegaii',
+    file: 'static/css/tailwind.dist.css',
+  },
+  Ultrawidify: {
+    id: 'dndehlekllfkaijdlokmmicgnlanfjbi',
+    file: 'res/img/settings/about-bg.png',
+  },
+  'その本、図書館にあります。': {
+    id: 'ldidobiipljjgfaglokcehmiljadanle',
+    file: 'images/ajax-loader.gif',
+  },
+  'YouTube Tags': {
+    id: 'fffiogeaioiinfekkflcfebaoiohkkgp',
+    file: 'css/content.css',
+  },
+  网课小工具: { id: 'kkicgcijebblepmephnfganiiochecfl', file: 'src/mooc.js' },
+  'Refined GitHub': {
+    id: 'hlepfoohegkhhmjieoechaddaejaokhf',
+    file: 'resolve-conflicts.js',
+  },
+  'Wombat - Gaming Wallet for Ethereum & EOS': {
+    id: 'amkmjjmmflddogmhpjloimipbofnfjih',
+    file: 'dropbox.html',
+  },
+  'Screengrab!': {
+    id: 'fccdiabakoglkihagkjmaomipdeegbpk',
+    file: 'skin/blue.png',
+  },
+  Yomichan: { id: 'ogmnaimimemjmbakcfefmnahgdfhfami', file: 'popup.html' },
+  'Meeting Scheduler for Gmail by cloudHQ': {
+    id: 'dibjpgjiefaibdinijeddhaiiphfhejp',
+    file: 'javascripts/background.js',
+  },
+  'Accessibility Developer Tools': {
+    id: 'fpkknkljclfencbdbgkenhalefipecmb',
+    file: 'generated/axs.js',
+  },
+  'Shopee Fans - Shopee Seller Assistant': {
+    id: 'lholmjphdehllbpdoiejoolbejkjcpba',
+    file: 'assets/css/collection-box.css',
+  },
+  'Delete My Posts on Facebook™': {
+    id: 'dkmcogkicmeikokodpohkibiicngdhln',
+    file: 'images/arrow_down.svg',
+  },
+  Lustre: {
+    id: 'cjmfiochlaffhnellbhffgnjocahinnh',
+    file: 'assets/images/placeholder-badge.svg',
+  },
+  'Mochi Dictionary - Từ điển Mochi': {
+    id: 'ejmmioggcokagpjlajeilkakgphhmmbj',
+    file: 'images/audio-blue.png',
+  },
+  'Parental Control - Adult Blocker': {
+    id: 'peocghcbolghcodidjgkndgahnlaecfl',
+    file: 'assets/css/content.css',
+  },
+  'Web Clipper (Nimbus)': {
+    id: 'kiokdhlcmjagacmcgoikapbjmmhfchbi',
+    file: 'css/optionStyle.css',
+  },
+  'Wikipedia night mode': {
+    id: 'idhghjodolinkdhibgfgfoceackpcjfl',
+    file: 'img/128x128.png',
+  },
+  'VK Flex': {
+    id: 'ljbmkjikheoaglnnifnghjbknejbmhap',
+    file: 'assets/css/menu.css',
+  },
+  'AwesomeDrive for Google Drive': {
+    id: 'aaebjepcfidgkojljbgoilgkgklehldj',
+    file: 'manifest.json',
+  },
+  EtherAddressLookup: {
+    id: 'pdknmigbbbhmllnmgdfalmedcmcefdfn',
+    file: 'images/powered-by-quiknode.png',
+  },
+  'Copy Me That': {
+    id: 'lgjinjcobiflbbnhenlfkcjpeeacklfl',
+    file: 'exists.gif',
+  },
+  'eTrack - Package Tracking': {
+    id: 'eagjogpknkkfgelchdkhdmgiljjidndf',
+    file: 'fonts/material-design-icons/MaterialIcons-Regular.woff2',
+  },
+  'Roblox Themes': {
+    id: 'bhnkonnaaipkhoaiakbcpcaolflgmnhl',
+    file: 'src/resources/styles/main.css',
+  },
+  'Outwrite — Grammar checker & rewrite tool': {
+    id: 'jldbdlmljpigglecmeclifcdhgbjbakk',
+    file: 'index.css',
+  },
+  'AliPrice - TB以图搜货': {
+    id: 'fahhlhbhnmkjegdfoiadmnhcclidoflh',
+    file: 'assets/css/common.css',
+  },
+  ASIFY: { id: 'biehagnkgckkagkbpncoieiknahmngdg', file: 'asify_128.png' },
+  'nFollowers – Unfollowers Tracker': {
+    id: 'mbomllgopkebhhnljlgikdicedmnpknl',
+    file: 'js/dashboard.js',
+  },
+  AliPrice卖家助手: {
+    id: 'lenipkahddombkldhfmcnnjakmcepdlk',
+    file: 'assets/css/common.css',
+  },
+  'AliPrice Search by image for China import': {
+    id: 'aadbahhifnekkkcbapdfandpimaoacmj',
+    file: 'assets/fonts/iJWKBXyIfDnIV7nBrXw.woff2',
+  },
+  'Otto – Pomodoro timer and website blocker': {
+    id: 'jbojhemhnilgooplglkfoheddemkodld',
+    file: 'blockedUI.html',
+  },
+  'AliPrice Price Tracker': {
+    id: 'haighbphebockaggfkllmmdpmgdhebme',
+    file: 'assets/css/common.css',
+  },
+  'Tile Tabs WE': {
+    id: 'lbnnfjfjdijcnaakaebgcoemmlicjbnl',
+    file: 'quickmenu.html',
+  },
+  'Dislikes for Youtube': {
+    id: 'jpefmbpcbebpjpmelobfakahfdcgcmkl',
+    file: 'assets/static/128.png',
+  },
+  'Everhour — Time Tracking, Budgets, Expenses': {
+    id: 'dnebklifojaaecmheejjopgjdljebpeo',
+    file: 'fonts/Lato-Regular.woff2',
+  },
+  'SEI Pro': {
+    id: 'pdbbapplhjopafpgidbgceccbbmehcjj',
+    file: 'js/lib/jquery-3.4.1.min.js',
+  },
+  'Adobe Experience Cloud Debugger': {
+    id: 'ocdmogmohccmeicdhlhhgepeaijenapj',
+    file: 'app.html',
+  },
+  'DS Amazon Quick View Extended': {
+    id: 'ilpimgbmpmhfhdaaeepjokoigelkfbee',
+    file: 'img/bsr_sample.png',
+  },
+  'Sync Watch': {
+    id: 'ggiafipgeeaaahnjamgpjcgkdpanhddg',
+    file: 'js/netflix.js',
+  },
+  'KeePassHttp-Connector': {
+    id: 'dafgdjggglmmknipkhngniifhplpcldb',
+    file: 'jquery.min.map',
+  },
+  CrackWatch: {
+    id: 'dechlkibpibjlaidpeniljjejncdhfpj',
+    file: 'images/logo3.png',
+  },
+  'Custom Calendar Background': {
+    id: 'acjecbgflnhmeldadcbblhfdimhifpki',
+    file: 'options.html',
+  },
+  Whatsmyserp: {
+    id: 'chbmoagfhnkggnhbjpoonnmhnpjdjdod',
+    file: 'img/export.svg',
+  },
+  'iKnow! ポップアップ辞書': {
+    id: 'omfegkgipldobddijcpagdabgifghdgb',
+    file: '_metadata/verified_contents.json',
+  },
+  'CS.Money Antiscam': {
+    id: 'bocdepodnagbohblgjmooobalmcojkpg',
+    file: 'img/app_logo.svg',
+  },
+  'Purple Ads Blocker': {
+    id: 'lkgcfobnmghhbhgekffaadadhmeoindg',
+    file: 'PurpleFlowString.js',
+  },
+  'Zip previously Quadpay: Buy now, pay later': {
+    id: 'liindccgkpdcafeceonflfdmkjhijapj',
+    file: 'assets/17c3067d1b8f415b0db5656e1218a2d0.svg',
+  },
+  'Color Contrast Analyzer': {
+    id: 'dagdlcijhfbmgkjokkjicnnfimlebcll',
+    file: 'page_context.js',
+  },
+  'Web Ad Blocker': {
+    id: 'fifcailncnlobddlehplcimgnehnldio',
+    file: 'tutorial/cash.min.js',
+  },
+  '1Password Beta – Password Manager': {
+    id: 'khgocmkkpikpnmmkgmdnfckapcdkgfaf',
+    file: 'inline/button/injected.css',
+  },
+  'Subtitles for Language Learning (Prime Video)': {
+    id: 'hlofmmmlhfelbfhcpapoackkglljfcnb',
+    file: '_locales/ar/messages.json',
+  },
+  'Sorftime Save': {
+    id: 'aadiiicebnjmjmibjengdohedcfeekeg',
+    file: 'manifest.json',
+  },
+  Monosearch: {
+    id: 'eadklkgmejdhldgchbmegmljdkchcdbd',
+    file: 'templates/add_deny_btn.png',
+  },
+  SellerMotor: {
+    id: 'hblfamjdifnhiioifbfamlnkjfenhfed',
+    file: 'css/content.css',
+  },
+  'GO-Global': { id: 'kkehppgllpkfohejllckommnpfeomhnc', file: 'main.html' },
+  'Adswerve - dataLayer Inspector+': {
+    id: 'kmcbdogdandhihllalknlcjfpdjcleom',
+    file: 'images/doubleclick-logo.png',
+  },
+  'Rapid Image Search': {
+    id: 'jpalmgfhimggimecfeeigilegckphmne',
+    file: 'img/icon16.png',
+  },
+  'Ryviu - Import reviews from Aliexpress,Amazon': {
+    id: 'nlijpgankndpklfipncpkljliinbcbca',
+    file: 'images/ryviu.png',
+  },
+  'VU Quiz Firewall': {
+    id: 'gbiahfedloaennjklbmekkhoojlaffcc',
+    file: 'VULogo.png',
+  },
+  'Salesforce Lightning Inspector': {
+    id: 'pcpmcffcomlcjgpcheokdfcjipanjdpc',
+    file: 'dist/LightningInspectorInjectedScript.js',
+  },
+  'Chrome IPTV Player': {
+    id: 'defmmfhdopkfcgngoklpbbcnpfpagbfh',
+    file: '_metadata/verified_contents.json',
+  },
+  'TON Wallet': {
+    id: 'nphplpgoakhhjchkkhmiggakijnkhfnd',
+    file: 'js/extension/provider.js',
+  },
+  'Pesticide for Chrome': {
+    id: 'bakpbgckdnepkmkeaiomhmfcnejndkbi',
+    file: 'pesticide.min.css',
+  },
+  'Lifesize Scheduler for Google Calendar': {
+    id: 'pkdaplneajgbalnnmaoflooakgijjkhc',
+    file: 'img/icon128.png',
+  },
+  easySearch: {
+    id: 'igieognglkjfefoldlaachcoimjecojk',
+    file: 'js/utils.js',
+  },
+  CJDropshipping: { id: 'mbndljkgaoailfnpeodnlejigmkdpokb', file: 'assets/' },
+  'Password Manager Pro': {
+    id: 'hfdkpbblioghdghhkdppipefbchgpohn',
+    file: 'images/pmp_16x16.png',
+  },
+  PIP: { id: 'icblpoalghoakidcjiheabnkijnklhhe', file: 'js/inject.js' },
+  'Fingerprint Spoofing': {
+    id: 'ljdekjlhpjggcjblfgpijbkmpihjfkni',
+    file: 'cts.js',
+  },
+  'Dr.eye 嵌入翻译插件': {
+    id: 'bcbomnojalacmkgalembldegajchajdd',
+    file: 'images/mark/button-1.png',
+  },
+  'ScreenBud · Capture, edit & share screenshots': {
+    id: 'gcjpddnhdopbpimmngmgfhhimnbenjhl',
+    file: 'index-f523c91b.js',
+  },
+  'TrustLogin - IDaaS (Identity as a Service)': {
+    id: 'injlinpljbkaecdfcipjihconmpndkjj',
+    file: 'img/loading_service_page.gif',
+  },
+  'Swagger Inspector Extension': {
+    id: 'biemppheiopfggogojnfpkngdkchelik',
+    file: 'images/16.png',
+  },
+  'Vex 4 Unblocked Game': {
+    id: 'flogffpkikminpapehgocpbckfckmohi',
+    file: 'app-icon.png',
+  },
+  'WA Sender Free Bulk Messaging': {
+    id: 'cankiolpkhdphjffldgoiaomhmgdpiig',
+    file: 'css/lib.css',
+  },
+  'Impero Cloud Extension': {
+    id: 'jeddnlnhbnhbpojpebckcgongkiijobk',
+    file: 'main.js',
+  },
+  'Avaya Agent for Desktop Extension': {
+    id: 'gbgfbmopppnjeabmjdinikeidmgblchn',
+    file: 'skin/call.png',
+  },
+  'Help Me Focus Extension': {
+    id: 'ooaincdhfcpciedcpmaggdfcmepfjcip',
+    file: 'public/images/bd-128.png',
+  },
+  'New Tab Speed Dial Extension': {
+    id: 'kcgcocmjhhnkcddddgocfcjcmmegplpk',
+    file: 'public/images/bd-128.png',
+  },
+  'Nocturnal Surfer Extension': {
+    id: 'mmjcpjcempclckbijgchmjedopfcnpea',
+    file: 'public/images/background.png',
+  },
+  'ProductivityTab — Custom Homepage Dashboard': {
+    id: 'oghkljobbhapacbahlneolfclkniiami',
+    file: 'index.html',
+  },
+  WAToolkit: {
+    id: 'fedimamkpgiemhacbdhkkaihgofncola',
+    file: 'img/iconMenuItem24.png',
+  },
+  'AliExpress Coupon Finder': {
+    id: 'adanomdlalebngcphfbknoglbcdcbchb',
+    file: 'chunks/utils-a5b09840.js',
+  },
+  LoungeDestroyer: {
+    id: 'ghahcnmfjfckcedfajbhekgknjdplfcl',
+    file: 'icons/32x32.png',
+  },
+  'Shareaholic for Google Chrome™': {
+    id: 'kbmipnjdeifmobkhgogdnomkihhgojep',
+    file: 'images/shareaholic_button_230_bw.png',
+  },
 };
 export default extensions;

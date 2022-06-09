@@ -5,6 +5,10 @@
   min-width: 600px;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   background: #657fca0a;
   font-size: 16px;
