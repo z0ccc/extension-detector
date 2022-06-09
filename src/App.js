@@ -29,6 +29,7 @@ const App = () => {
                     ? '#00ff00'
                     : '#ff0000',
                 }}
+                key={key}
               >
                 <td>{extensions[key].name}</td>
                 <td>{`${extensions[key].detected}`}</td>
