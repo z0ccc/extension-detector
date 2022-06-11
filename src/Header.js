@@ -5,13 +5,13 @@ const isSupported = () => {
   if (!window.chrome) {
     return false;
   }
-  if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-      navigator.userAgent
-    )
-  ) {
-    return false;
-  }
+  // if (
+  //   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+  //     navigator.userAgent
+  //   )
+  // ) {
+  //   return false;
+  // }
   return true;
 };
 
@@ -41,7 +41,7 @@ const Header = ({ hash }) => {
         web pages. The detected extensions can be used to track you through
         browser fingerprinting. Read more
       </p>
-      <div style={{ textAlign: 'center', margin: '24px 0' }}>
+      <div style={{ textAlign: 'center', marginTop: '24px' }}>
         <h2>
           {isSupported()
             ? '0.01% of users share the same extensions'

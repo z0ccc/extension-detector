@@ -1,11 +1,19 @@
 const Table = ({ extensions }) => {
   return (
-    <div style={{ border: '1px solid #ddd', boxSizing: 'border-box' }}>
+    <div
+      style={{
+        border: '1px solid #ddd',
+        borderBottom: 'none',
+        boxSizing: 'border-box',
+      }}
+    >
       <table>
-        <tr>
-          <th>Extension</th>
-          <th>Detected</th>
-        </tr>
+        <thead>
+          <tr>
+            <th>Extension</th>
+            <th>Detected</th>
+          </tr>
+        </thead>
         <tbody>
           {Object.keys(extensions).map((key) => (
             <tr

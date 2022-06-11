@@ -22,9 +22,6 @@ table {
 
 tr {
   background-color: #fff;
-}
-
-tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
 

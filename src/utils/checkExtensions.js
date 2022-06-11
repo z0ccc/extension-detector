@@ -19,7 +19,11 @@ const checkExtensions = async () => {
     (values) => values
   );
 
-  const metaMask = { name: 'MetaMask', detected: checkMetaMask() };
+  const metaMask = {
+    name: 'MetaMask',
+    detected: checkMetaMask(),
+    id: 'nkbihfbeogaeaoehlefnkodbefgpgknn',
+  };
 
   const protectedExtensionsChecked = await checkProtectedExtensions();
 
