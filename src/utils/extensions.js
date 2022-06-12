@@ -41,7 +41,7 @@ const extensions = {
   },
   'Kami for Google Chrome™': {
     id: 'ecnphlgnajanjnkcmbpancdjoidceilk',
-    file: 'getFrameId',
+    file: 'content/web/options.html',
   },
   'Google Docs Offline': {
     id: 'ghbmnnjooekpmoecnnnilnnbdlolhkhi',
@@ -61,7 +61,7 @@ const extensions = {
   },
   'Read&Write for Google Chrome™': {
     id: 'inoeonmfapjbbkmdafoankkfajkcphgd',
-    file: 'google-docs-integration.js',
+    file: 'gdocs.page.bundle.js',
   },
   Skype: {
     id: 'lifbcibllhkdhoafpjfnlhfpfgnpldfl',
@@ -117,7 +117,7 @@ const extensions = {
   },
   'GoFullPage - Full Page Screen Capture': {
     id: 'fdpohaocaechififmbbbbbknoalclacl',
-    file: '_locales/pt/messages.json',
+    file: 'p/_api.html',
   },
   'IE Tab': {
     id: 'hehijbfgiekmjfkfjpbkbammjbdenadd',
@@ -152,10 +152,6 @@ const extensions = {
   'Norton Password Manager': {
     id: 'admmjipmmciaobhojoghlmleefbicajg',
     file: 'content/ui/popup-in-page.html',
-  },
-  'Okta Browser Plugin': {
-    id: 'glnpjglilkicbckjpbgcfkogebgllemb',
-    file: 'getFrameId',
   },
   'Avira Password Manager': {
     id: 'caljgklbbfbcjjanaijlacgncafpegll',
@@ -243,7 +239,7 @@ const extensions = {
   },
   'Awesome Screenshot and Screen Recorder': {
     id: 'nlipoenfbbikpbjkfpfillcgkoblgpmj',
-    file: 'images/success.gif',
+    file: 'camera.html',
   },
   'Ghostery – Privacy Ad Blocker': {
     id: 'mlomiejdfkolichcflejclcbmpeaniij',
@@ -304,7 +300,7 @@ const extensions = {
   },
   '1Password – Password Manager': {
     id: 'aeblfdkhhhdcdjpifhhbdiojplfjncoa',
-    file: 'inline/button/injected.css',
+    file: 'inline/menu/menu.html',
   },
   Phantom: {
     id: 'bfnaelmomeimhlpmgjnjophhpkkoljpa',
@@ -349,7 +345,7 @@ const extensions = {
   },
   'VPN Free - Betternet Unlimited VPN Proxy': {
     id: 'gjknjjomckknofjidppipffbpoekiipm',
-    file: 'icon-32.png',
+    file: 'static/assets/elements/close.svg',
   },
   'ImTranslator: Translator, Dictionary, TTS': {
     id: 'noaijdpnepcgjemiklgfkcfbkokogabh',
@@ -422,7 +418,7 @@ const extensions = {
   },
   'MyBib: Free Citation Generator': {
     id: 'phidhnmbkbkbkbknhldmpmnacgicphkf',
-    file: 'popup.htm',
+    file: 'static/images/logo.svg',
   },
   'Player para ver Movistar+': {
     id: 'kenfcfndncbbggmafjjeihkdclggbojn',
@@ -476,7 +472,7 @@ const extensions = {
     id: 'hnfanknocfeofbddgcijnmhnfnkdnaad',
     file: 'requestProvider.js',
   },
-  'Snap&Read': { id: 'mloajfnmjckfjbeeofcdaecbelnblden', file: 'getFrameId' },
+  'Snap&Read': { id: 'mloajfnmjckfjbeeofcdaecbelnblden', file: 'go.html' },
   'Co:Writer': { id: 'ifajfiofeifbbhbionejdliodenmecna', file: 'status' },
   'OneLogin for Google Chrome': {
     id: 'ioalpmibngobedobkmbhgmadaphocjdn',
@@ -545,7 +541,7 @@ const extensions = {
   },
   'HubSpot Sales': {
     id: 'oiiaigjnkhngdbnoookogelabohpglmd',
-    file: 'images.js.map',
+    file: 'img/hubspot-logo-16-grey.png',
   },
   'Méliuz: Cashback e cupons em suas compras': {
     id: 'jdcfmebflppkljibgpdlboifpcaalolg',
@@ -649,10 +645,6 @@ const extensions = {
     id: 'iggpfpnahkgpnindfkdncknoldgnccdg',
     file: 'options.html',
   },
-  'Alexa Traffic Rank': {
-    id: 'cknebhggccemgcnbidipinkifmmegdel',
-    file: 'html/content/toolbar.html',
-  },
   'Video Downloader for Web': {
     id: 'cnlogloeabhinechhmcgkkgglmiefaif',
     file: '362b56e7c69551249027.woff',
@@ -671,7 +663,7 @@ const extensions = {
   },
   'Page Analytics (by Google)': {
     id: 'fnbdnhhicmebfgdgglcdacdapkcihcoh',
-    file: 'popup/popup.css',
+    file: 'resources/sprites.png',
   },
   'Web Video Downloader': {
     id: 'odecbmmehabeloobkgokmfgldaegiflc',
@@ -909,7 +901,7 @@ const extensions = {
   },
   'Dark Mode for Chrome': {
     id: 'pjbgfifennfhnbkhoidkdchbflppjncb',
-    file: 'assets/css/color-picker.min.css',
+    file: 'content_change/сustom/github.css',
   },
   ModHeader: {
     id: 'idgpnmonknjnojddfkpgkljpfnnfcklj',
@@ -937,11 +929,7 @@ const extensions = {
   },
   'Calendly: Meeting Scheduling Software': {
     id: 'cbhilkcodigmigfbnphipnnmamjfkipp',
-    file: 'index.html',
-  },
-  'Google Meet Push-To-Talk': {
-    id: 'pgpidfocdapogajplhjofamgeboonmmj',
-    file: 'images/recimage.png',
+    file: 'iframe_gMenuPopover.html',
   },
   Keplr: {
     id: 'dmkamcknogkgcdfhhbddcghachkejeap',
@@ -954,10 +942,6 @@ const extensions = {
   'Destiny Discover': {
     id: 'eebnbmbhdfnfhfhigoklhaklkodghbla',
     file: 'scripts/injected/main.html',
-  },
-  'ProctorExam Screen Sharing': {
-    id: 'digojkgonhgmnohbapdfjllpnmjmdhpg',
-    file: 'icon.png',
   },
   'Easy PiP': {
     id: 'fhnlapempodiikihjeggpacnefpdemam',
@@ -1025,11 +1009,11 @@ const extensions = {
   },
   'Auto Refresh Plus | Page Monitor': {
     id: 'hgeljhfekpckiiplhkigfehkdpldcggm',
-    file: 'a.html',
+    file: 'blank.html',
   },
   'AdBlocker by Trustnav': {
     id: 'dgbldpiollgaehnlegmfhioconikkjjh',
-    file: 'views/notifications/notifications.html',
+    file: 'views/notifications/search_extension_uninstalled/index.html',
   },
   'Octotree - GitHub code tree': {
     id: 'bkhaagjahfmjljalopjnoealnfndnagc',
@@ -1089,7 +1073,7 @@ const extensions = {
   },
   'Jungle Scout': {
     id: 'bckjlihkmgolmgkchbpiponapgjenaoa',
-    file: '_metadata/verified_contents.json',
+    file: 'images/128.png',
   },
   'Beyond 20': {
     id: 'gnblbpbepfbfmoobegdogkglpbhcjofh',
@@ -1191,11 +1175,11 @@ const extensions = {
   },
   'Karma - Your New Shopping Assistant': {
     id: 'emalgedpdlghbkikiaeocoblajamonoh',
-    file: 'iframe.html',
+    file: 'img/default-store.png',
   },
   'Farmville2 X-Press': {
     id: 'gbgjpdhhnbgmnafojckjmjogcpoinlim',
-    file: 'view/index.html',
+    file: 'icons/Avatar_128.png',
   },
   'Desktop For Instagram': {
     id: 'odlpjhnipdekfkdkadoecooboghijleh',
@@ -1203,7 +1187,7 @@ const extensions = {
   },
   'Toby for Chrome': {
     id: 'hddnkoipeenegfoeaoibdmnaalmgkpip',
-    file: 'inject.html',
+    file: 'img/icon-128.png',
   },
   'Checker Plus for Google Calendar™': {
     id: 'hkhggnncdpfibdhinjiegagmopldibha',
@@ -1299,7 +1283,7 @@ const extensions = {
   },
   'Muzli 2 - Stay Inspired': {
     id: 'glcipcfhmopcgidicgdociohdoicpdfc',
-    file: '_metadata/verified_contents.json',
+    file: 'icon128.png',
   },
   'Buster: Captcha Solver for Humans': {
     id: 'mpbjkejclgfgadiemmefgebjfooflfhl',
@@ -1401,13 +1385,9 @@ const extensions = {
     id: 'hmlcjjclebjnfohgmgikjfnbmfkigocc',
     file: 'images/icon-16.png',
   },
-  'Speed Dial': {
-    id: 'ejbjamhkdedinncaeiackcdehpccoejm',
-    file: 'img/def.jpg',
-  },
   'Cently (Coupons at Checkout)': {
     id: 'kegphgaihkjoophpabchkmpaknehfamb',
-    file: 'NunitoSansBlack.ttf',
+    file: 'assets/css/common.css',
   },
   'Live Start Page - Living Wallpapers': {
     id: 'ocggccaacacpienfcgmgcihoombokbbj',
@@ -1423,7 +1403,7 @@ const extensions = {
   },
   'Note Board - Sticky Notes App': {
     id: 'goficmpcgcnombioohjcgdhbaloknabb',
-    file: 'tiny_mce/themes/advanced/anchor.htm',
+    file: 'NoteBoard.png',
   },
   'Open SEO Stats(Formerly: PageRank Status)': {
     id: 'hbdkkfheckcdppiaiabobmennhijkknn',
@@ -1440,10 +1420,6 @@ const extensions = {
   'Astar VPN - Free and fast VPN for everyone': {
     id: 'jajilbjjinjmgcibalaakngmkilboobh',
     file: 'widget.html',
-  },
-  '哔哩哔哩助手：bilibili.com 综合辅助扩展': {
-    id: 'kpbnombpnpcffllnianjibmpadjolanh',
-    file: 'bilibili-helper.woff',
   },
   Buffer: { id: 'noojglkidnpfjbincgijbaiedldjfbhh', file: 'manifest.json' },
   'Advertising Terminator': {
@@ -1500,7 +1476,10 @@ const extensions = {
     id: 'logldmlncddmdfcjaaljjjkajcnacigc',
     file: 'toast_icon.png',
   },
-  'Meow, The Cat Pet': { id: 'ejgnolahdlcimijhloboakpjogbfdkkp', file: '}' },
+  'Meow, The Cat Pet': {
+    id: 'ejgnolahdlcimijhloboakpjogbfdkkp',
+    file: 'images/skins/meow.png',
+  },
   'Pouch - Automatic Coupons at Checkout': {
     id: 'eoolfmmapnkhandljfaaofncecfakljd',
     file: 'static/128x128-active.png',
@@ -1529,15 +1508,11 @@ const extensions = {
     id: 'mjdepdfccjgcndkmemponafgioodelna',
     file: 'images/background.png',
   },
-  'Notifier for Gmail™': {
-    id: 'dcjichoefijpinlfnjghokpkojhlhkgl',
-    file: 'notification.png',
-  },
   '阻擋廣告 for YouTube™': {
     id: 'daocgoilgdmkpilllpkjbaankampnbmj',
     file: 'Scripts/jquery.1.10.2.js',
   },
-  'Just Read': { id: 'dgmanlpmmkibanfdgjocnabmcaclkmod', file: 'print.svg' },
+  'Just Read': { id: 'dgmanlpmmkibanfdgjocnabmcaclkmod', file: 'options.css' },
   'Reader View': {
     id: 'ecabifbgmdmgdllomnfinbmaellmclnh',
     file: 'data/reader/template.html',
@@ -1560,7 +1535,7 @@ const extensions = {
   },
   'Enable Right Click for Google Chrome™': {
     id: 'ofgdcdohlhjfdhbnfkikfeakhpojhpgm',
-    file: '_locales/ar/messages.json',
+    file: 'js/background.js',
   },
   'Custom Progress Bar for YouTube™': {
     id: 'nbkomboflhdlliegkaiepilnfmophgfg',
@@ -1573,10 +1548,6 @@ const extensions = {
   'Data Scraper - Easy Web Scraping': {
     id: 'nndknepjnldbdbepjfgmncbggmopgden',
     file: 'dist/index.html',
-  },
-  'Google Tone': {
-    id: 'nnckehldicaciogcbchegobnafnjkcne',
-    file: 'images/arrow.png',
   },
   'FantasyPros: Win your Fantasy League': {
     id: 'gfbepnlhpkbgbkcebjnfhgjckibfdfkc',
@@ -1593,7 +1564,7 @@ const extensions = {
   },
   'Tactiq: Transcribe Google Meet and Zoom': {
     id: 'fggkaccpbmombhnjkjokndojfgagejfb',
-    file: 'main.css',
+    file: 'content.css',
   },
   Instapaper: { id: 'ldjkgaaoikpmhmkelcgkgacicjfbofhh', file: 'alpha_off.png' },
   'McAfee SiteAdvisor Enterprise': {
@@ -1666,7 +1637,7 @@ const extensions = {
   },
   'Native HLS Playback': {
     id: 'emnphkkblegpebimobpbekeedfgemhof',
-    file: '_metadata/verified_contents.json',
+    file: 'event.js',
   },
   SearchBlox: { id: 'blddohgncmehcepnokognejaaahehncd', file: 'styles.css' },
   'Play HLS M3u8': {
@@ -1687,7 +1658,7 @@ const extensions = {
   },
   'Language Learning with Youtube BETA': {
     id: 'jkhhdcaafjabenpmpcpgdjiffdpmmcjb',
-    file: '_metadata/verified_contents.json',
+    file: 'images/sad_owl.png',
   },
   'Flash Playlist': {
     id: 'nddmmcpmdbkooddfjcohmlcfclhllgeh',
@@ -1707,7 +1678,7 @@ const extensions = {
   },
   'Quick translator': {
     id: 'imnnhgjdegackbejpnbmfmfnjbopblcc',
-    file: '_locales/am/messages.json',
+    file: 'images/128.png',
   },
   'OpenDyslexic for Chrome': {
     id: 'cdnapgfjopgaggbmfgbiinmmbdcglnam',
@@ -1723,7 +1694,7 @@ const extensions = {
   },
   'Video Downloader Wise': {
     id: 'iekgholhfibbgedbemeoglmklmeleonb',
-    file: '_locales/am/messages.json',
+    file: 'img/128.png',
   },
   'Full Page Screenshot Capture - Screenshotting': {
     id: 'pojgkmkfincpdkdgjepkmdekcahmckjp',
@@ -1745,10 +1716,6 @@ const extensions = {
     id: 'donbcfbmhbcapadipfkeojnmajbakjdc',
     file: '_locales/de/messages.json',
   },
-  'Commerce Inspector': {
-    id: 'kefmekfmfacbdefimlancoccpocmgmpb',
-    file: '_metadata/verified_contents.json',
-  },
   Draftback: {
     id: 'nnajoiemfpldioamchanognpjmocgkbg',
     file: 'images/chart_icon.png',
@@ -1763,7 +1730,7 @@ const extensions = {
   },
   'Screen Recorder & Screenshot Master': {
     id: 'igkkmokkmlbkkgdnkkancbonkbbmkioc',
-    file: 'backgroud/background.js',
+    file: 'audiosources/audiosources.html',
   },
   'File Converter - By Online-Convert.com': {
     id: 'dicgkflojhbopmagcacdklcpdfdcnhko',
@@ -1812,15 +1779,11 @@ const extensions = {
   },
   'WebSecurerr Browser Protection': {
     id: 'odlnghcomkeenpeblhddfpacdncfjmna',
-    file: 'style/double-rainbow.css',
+    file: 'warning.html',
   },
   webPass: {
     id: 'jlkiooodjckigejdpbkbinlgooolgfhh',
     file: 'images/webPass_button.png',
-  },
-  'eParaksts signing extension': {
-    id: 'dfablgdffinpaeiilgjpebchbacimpoa',
-    file: 'eparaksts-page.js',
   },
   'FormApps Extension': {
     id: 'ilfoopambfaclfjmpiaijnccgcmbeigi',
@@ -1869,10 +1832,6 @@ const extensions = {
   'Tag Assistant Companion': {
     id: 'jmekfmbnaedfebfnmakmokmlfpblbfdm',
     file: 'api/tag_assistant_api_bin.js',
-  },
-  'LearnPlatform for Educators': {
-    id: 'ccjpkjhfinjcophncpdhfighmlfccmem',
-    file: 'popup/popup.css',
   },
   'Web Protection for Chrome': {
     id: 'liafhjblpnimknccffddoiglnfgneaib',
@@ -1943,7 +1902,7 @@ const extensions = {
   },
   'Кэшбэк-сервис Мегабонус': {
     id: 'dbfipcjecamggjfabeaclacjoohfjhhn',
-    file: 'background.html',
+    file: 'icons/128.png',
   },
   'VPN Unlimited ® Proxy - Best VPN for Chrome': {
     id: 'mpcaainmfjjigeicjnlkdfajbioopjko',
@@ -1983,7 +1942,7 @@ const extensions = {
   },
   'JustBlock Security': {
     id: 'hiajdlfgbgnnjakkbnpdhmhfhklkbiol',
-    file: 'welcome.html',
+    file: 'options.html',
   },
   'SlitherPlus - Zoom, Skin Creator, Mod, Bots': {
     id: 'cpbghpalffgmgocmnigfhalghmaemffo',
@@ -2085,7 +2044,7 @@ const extensions = {
   },
   'Notebook Web Clipper': {
     id: 'cneaciknhhaahhdediboeafhdlbdoodg',
-    file: 'images/icn-success-clipping.png',
+    file: 'html/loader.html',
   },
   'Auto Clicker - AutoFill': {
     id: 'iapifmceeokikomajpccajhjpacjmibe',
@@ -2117,7 +2076,7 @@ const extensions = {
   },
   'Web Translate - Translator, Dictionary': {
     id: 'ibppednjgooiepmkgdcoppnmbhmieefh',
-    file: '_locales/am/messages.json',
+    file: 'js/Utils.js',
   },
   'XML Tree': { id: 'gbammbheopgpmaagmckhpjbfgdfkpadb', file: 'utils.js' },
   'Email Tracker': {
@@ -2247,7 +2206,7 @@ const extensions = {
   },
   'Instant Dictionary by GoodWordGuide.com': {
     id: 'mfembjnmeainjncdflaoclcjadfhpoim',
-    file: 'css/w-app.css',
+    file: 'pages/options.html',
   },
   Wizdler: {
     id: 'oebpmncolmhiapingjaagmapififiakb',
@@ -2337,7 +2296,7 @@ const extensions = {
   },
   'Vimbox Переводчик от Skyeng': {
     id: 'heeikiohkfkolhmdodhcjdklofmhmmhn',
-    file: 'practice-materials/images/tild6133-3461-4137-a436-383933626364__-__resize__504x__image.png',
+    file: 'icons/icon128.png',
   },
   minerBlock: {
     id: 'emikbbbebcdfohonlaifafnoanocnebl',
@@ -2353,7 +2312,7 @@ const extensions = {
   },
   'Mobile simulator - responsive testing tool': {
     id: 'ckejmhbmlajgoklhgbapkiccekfoccmk',
-    file: 'spoofer.js',
+    file: 'assets/pictos/logo.png',
   },
   'Global Twitch Emotes': {
     id: 'pgniedifoejifjkndekolimjeclnokkb',
@@ -2385,7 +2344,7 @@ const extensions = {
   },
   稀土掘金: {
     id: 'lecdifefmmfjnjjinhaennhdlmcaeeeb',
-    file: '_metadata/verified_contents.json',
+    file: 'manifest.json',
   },
   'Charcoal: Dark Mode for Messenger': {
     id: 'aaekanoannlhnajolbijaoflfhikcgng',
@@ -2398,7 +2357,7 @@ const extensions = {
   },
   'WAPI - Send personalized messages': {
     id: 'cgnhpniejimbnmgiccckgiaejdgbeebb',
-    file: '_metadata/verified_contents.json',
+    file: 'imgs/128.png',
   },
   'Screen Recorder Video Editor Webcam Recorder': {
     id: 'jfpjkgdpgdbddknpgplfkjjfncenlmkf',
@@ -2422,7 +2381,7 @@ const extensions = {
   },
   'BigGo Shopping Assistant': {
     id: 'enlbnppjlpkmjponagpelanookhiejao',
-    file: '_locales/en/messages.json',
+    file: 'images/header-logo-biggo@2x.png',
   },
   'Search by Image': {
     id: 'cnojnbdhbhnkbcieeekonklommdnndci',
@@ -2528,7 +2487,7 @@ const extensions = {
   },
   'Houzz Save Button': {
     id: 'fhjpekndimioildjhjfglcdgpahjoich',
-    file: 'icon.png',
+    file: 'dist/html/save.html',
   },
   'Auto Quality for YouTube™': {
     id: 'iaddfgegjgjelgkanamleadckkpnjpjc',
@@ -2590,10 +2549,6 @@ const extensions = {
     id: 'ffjkhaeogkeelkioellpgcebmekedpag',
     file: 'include/blocage.css',
   },
-  'Anti Testportal': {
-    id: 'dpgfbfopkfdfmlfdpmoanamopdnibhkl',
-    file: 'popup/overlay.js',
-  },
   'GIPHY for Gmail': {
     id: 'andgibkjiikabclfdkecpmdkfanpdapf',
     file: 'img/128x128.png',
@@ -2624,7 +2579,7 @@ const extensions = {
   },
   'Angular DevTools': {
     id: 'ienfalfjdbdpebioblfackkekamfmbnh',
-    file: 'backend.js',
+    file: 'devtools.html',
   },
   'Britannica Insights': {
     id: 'hfipegnjbpgdlgifpfdcfnjnhepckmbf',
@@ -2633,10 +2588,6 @@ const extensions = {
   'Schoology Plus': {
     id: 'fbfppoaockpecjpbdmldojdehdpepfef',
     file: 'lib/js/pdf.worker.js',
-  },
-  'Adblock For Youtube': {
-    id: 'giaoehhefkmchjbbdnahgeppblbdejmj',
-    file: 'scriptlets.js',
   },
   'Font Finder': {
     id: 'bhiichidigehdgphoambhjbekalahgha',
@@ -2686,10 +2637,6 @@ const extensions = {
     id: 'eoigllimhcllmhedfbmahegmoakcdakd',
     file: 'content/ui/SiteRatingPane.html',
   },
-  'Meet auto admit': {
-    id: 'ceofheakaalaecnecdkdanhejojkpeai',
-    file: 'images/record.png',
-  },
   'Scrible Toolbar': {
     id: 'lijhjhlnfifgoabbihoobnfapogkcjgk',
     file: 'signed-in.html',
@@ -2716,7 +2663,7 @@ const extensions = {
   },
   'DSers - AliExpress.com Product Importer': {
     id: 'mmanaflgaempokjfbeeabkadnkoidjam',
-    file: 'assets/images/logo.svg',
+    file: 'options.html',
   },
   'TLDR This - Free automatic text summary tool': {
     id: 'jjmnbidkmmabkalampbilajnheeokpoj',
@@ -2729,11 +2676,7 @@ const extensions = {
   },
   'Passbolt - Open source password manager': {
     id: 'didegimhafipceonhjepacocaffmoppf',
-    file: '_metadata/verified_contents.json',
-  },
-  'Microsoft Outlook': {
-    id: 'ajanlknhcmbhbdafadmkobjnfkhdiegm',
-    file: 'kkpalkknhlklpbflpcpkepmmbnmfailf/auth.html',
+    file: 'data/img/logo/icon-19.png',
   },
   'MicroStrategy HyperIntelligence': {
     id: 'ikaoafechdeidffgniffdhdckeclcdhf',
@@ -2807,12 +2750,12 @@ const extensions = {
   },
   'Adverra Facebook Tool': {
     id: 'ohieekeimldcphmfhfooogcdmlmgomom',
-    file: '_metadata/verified_contents.json',
+    file: 'adverra_icon.png',
   },
   Sollet: { id: 'fhmfendgdocmcbmfikdcogofphimnkno', file: 'script.js' },
   'Vex 5 Game': {
     id: 'hpneobeplmfdahlecoofjnbdkediijof',
-    file: 'assets/images/L_R-circle-button.png',
+    file: 'images/splash/assets/images/branding_logo_agame.png',
   },
   Slido: {
     id: 'dhhclfjehmpacimcdknijodpjpmppkii',
@@ -3114,7 +3057,7 @@ const extensions = {
   },
   'Website SEO Checker: Free Audit & Analysis': {
     id: 'nljcdkjpjnhlilgepggmmagnmebhadnk',
-    file: 'style/page_style.min.css',
+    file: 'images/logo.svg',
   },
   'SAML Chrome Panel': {
     id: 'paijfdbeoenhembfhkhllainmocckace',
@@ -3131,7 +3074,7 @@ const extensions = {
   },
   'Hive Keychain': {
     id: 'jcacnejopjdphbnjgfaaobbfafkihpep',
-    file: 'images/logo.png',
+    file: 'hive_keychain.js',
   },
   'Lansweeper Chromium extension': {
     id: 'nnpeignlpkmbhjegcbfacbgcnhhjlghp',
@@ -3143,7 +3086,7 @@ const extensions = {
   },
   'Визуальные закладки': {
     id: 'lbklnemjebnacdgfdbclbcpfocmgilgn',
-    file: 'assets/img/loaded-empty.png',
+    file: 'img/browser-action/add-128.png',
   },
   Astro: {
     id: 'keibmolmaeiahiahfgenlaidmokmfcfm',
@@ -3160,7 +3103,7 @@ const extensions = {
   },
   券大师: {
     id: 'nebcijjbphjmagedbbbjbkfoccjpapil',
-    file: '_metadata/verified_contents.json',
+    file: 'logos/128.png',
   },
   每天看图: {
     id: 'gacaaldeffnmknpklelhfgnieehleimh',
@@ -3216,7 +3159,7 @@ const extensions = {
   },
   'Urban Shield': {
     id: 'almalgbpmcfpdaopimbdchdliminoign',
-    file: 'bg/proxy-script.js',
+    file: 'content/safecheck-notification/notification-iframe/index.html',
   },
   'Scratch Addons': {
     id: 'fbeffbjdlemaoicjdapfpikkikjoneco',
@@ -3353,10 +3296,6 @@ const extensions = {
     id: 'pbjjkligggfmakdaogkfomddhfmpjeni',
     file: 'insights.html',
   },
-  'Screen Share': {
-    id: 'kihbmdbdahlekggklbfbgmnkifcmfcip',
-    file: 'icon.png',
-  },
   'Crypto.com | Wallet Extension': {
     id: 'hifafgmccdpekplomjjkcfgodnhcellj',
     file: 'inpage-content.js',
@@ -3372,10 +3311,6 @@ const extensions = {
   'Affirm: Buy Now, Pay Later': {
     id: 'cmfijaapnnkcglahdngmjnhkfnkihkbg',
     file: 'assets/branding.json',
-  },
-  'Glider Screen': {
-    id: 'mcekgmccnieoopjfhjoekehkjkojjnfd',
-    file: 'icon.png',
   },
   JSONView: { id: 'gmegofmjomhknnokphhckolhcffdaihd', file: 'viewer.css' },
   'Keeper® Password Manager & Digital Vault ': {
@@ -3404,11 +3339,11 @@ const extensions = {
   },
   'We Heart It': {
     id: 'iblenkmcolcdonmlfknbpbgjebabcoae',
-    file: 'css/bookmarklet.css',
+    file: 'images/icon128.png',
   },
   'Fast Delete Messages': {
     id: 'cahhjpmdnfhfkgldefihhcgkaalllbld',
-    file: '_metadata/verified_contents.json',
+    file: 'content/content.js',
   },
   Bilômetro: {
     id: 'mjfigbdcambkldpnmdigcfpncpeekedd',
@@ -3430,7 +3365,10 @@ const extensions = {
     id: 'mcglgmippekbdbmniknikdgkmnnpdnmh',
     file: 'assets/icons/128.png',
   },
-  AliDropship: { id: 'jlnhdnbbikjkdejminhdpmejldiapdgn', file: 'getFrameId' },
+  AliDropship: {
+    id: 'jlnhdnbbikjkdejminhdpmejldiapdgn',
+    file: 'img/menu/logo.svg',
+  },
   'Email Finder - LeadLeaper': {
     id: 'iojojcfflmfcejodomoafimdiianbgfe',
     file: 'css/images/bperson.png',
@@ -3453,7 +3391,7 @@ const extensions = {
   },
   'Subtitles For YouTube': {
     id: 'oanhbddbfkjaphdibnebkklpplclomal',
-    file: 'open-subtitles.html',
+    file: 'images/icon.png',
   },
   'Sortd for Gmail': {
     id: 'aohlfneeliakfcefeffppfplagbccbni',
@@ -3504,7 +3442,10 @@ const extensions = {
     id: 'apcjkhjbhapedgbekhlhdkidpohpkfne',
     file: 'img/activation/0.png',
   },
-  'Edge Translate': { id: 'bocbaocobfecmglnmeaeppambideimao', file: '33.js' },
+  'Edge Translate': {
+    id: 'bocbaocobfecmglnmeaeppambideimao',
+    file: 'google/lans/lan_fr.js',
+  },
   'Video Downloader Plus  ': {
     id: 'cjljdgfhkjbdbkcdkfojleidpldagmao',
     file: 'assets/128.png',
@@ -3545,10 +3486,6 @@ const extensions = {
   'Качай аудио с вк': {
     id: 'hdfadhmdfllnfbckdhiikebblicdggbb',
     file: 'assets/images/download2.png',
-  },
-  'Better History': {
-    id: 'egehpkpgpgooebopjihjmnpejnjafefi',
-    file: 'assets/templates/header.html',
   },
   'CSDN·浏览器助手': {
     id: 'kfkdboecolemdjodhmhmcibjocfopejo',
@@ -3599,10 +3536,6 @@ const extensions = {
   Eternl: {
     id: 'kmhcihpebfmpgmihbkipmjlmmioameka',
     file: 'trezor-usb-permissions.html',
-  },
-  'Startpage Privacy Protection': {
-    id: 'cdkhedhmncjnpabolpjceohohlefegak',
-    file: 'options.html',
   },
   'BlueJeans for Google Calendar': {
     id: 'iedelpfmeejalepbpmmfbfnfoeojohpp',
@@ -3699,11 +3632,7 @@ const extensions = {
   },
   'Travel extension': {
     id: 'hkhoplnhcalogofmpojjibalhifgdomb',
-    file: '_metadata/verified_contents.json',
-  },
-  'Home - New Tab Page': {
-    id: 'ehhkfhegcenpfoanmgfpfhnmdmflkbgk',
-    file: 'css/search_badge.css',
+    file: 'assets/icons/icon_128.png',
   },
   'Tab Snooze': {
     id: 'pdiebiamhaleloakpcgmpnenggpjbcbm',
@@ -3911,20 +3840,23 @@ const extensions = {
   },
   'Never Ending Netflix': {
     id: 'hdadmgabliibighlbejhlglfjgplfmhb',
-    file: 'NEN.js',
+    file: 'js/common.js',
   },
   'Chomikuj.pl': {
     id: 'mabmeicndgkgfompmmdkijoamfleoadk',
     file: 'img/chomik_folder.png',
   },
-  HeadingsMap: { id: 'flbjommegcjonpdmenkdiocclhjacmbi', file: 'getFrameId' },
+  HeadingsMap: {
+    id: 'flbjommegcjonpdmenkdiocclhjacmbi',
+    file: 'html/help/en.html',
+  },
   'Listly - Data Scraper': {
     id: 'ihljmnfgkkmoikgkdkjejbkpdpbmcgeh',
     file: 'html/sidepanel/iframe.html',
   },
   'Firebug Lite for Google Chrome': {
     id: 'ehemiojjcpldeipjhjkepfdaohajpbdo',
-    file: '_metadata/verified_contents.json',
+    file: 'bug128.png',
   },
   'Translate Anywhere': {
     id: 'hhimhiimpaicidimabokfbdokhpcnmoh',
@@ -3973,7 +3905,7 @@ const extensions = {
   Adminer: { id: 'amolhiihcpdbkjimhlffamgieibhfapi', file: 'adminer-paga.png' },
   'Snake for Chrome': {
     id: 'nabjdccbcfponlofkobmigcgfaddnkll',
-    file: 'index.css',
+    file: 'option.js',
   },
   'Talkdesk Click-to-Call Extension': {
     id: 'adjgicoimjhccdcjgepkmigomegpjplg',
@@ -4022,7 +3954,7 @@ const extensions = {
   },
   'Space Extension': {
     id: 'njpoobmgloliplbhnabndlmpbegcpjei',
-    file: '_metadata/verified_contents.json',
+    file: 'images/docs.svg',
   },
   'Safety for Gmail™': {
     id: 'pjbnfpohnepfohjeklbpeekacpellded',
@@ -4042,11 +3974,11 @@ const extensions = {
   },
   'Jesus Image Extension': {
     id: 'lkboiigfopfnefaeiggakidkbgpgkapc',
-    file: '_metadata/verified_contents.json',
+    file: 'images/docs.svg',
   },
   'Delete All Messages on Facebook™': {
     id: 'hdigpgnfpockednepfiinhdjebkmpicn',
-    file: '_metadata/verified_contents.json',
+    file: 'content/content.js',
   },
   'GameStop Wallet': {
     id: 'pkkjjapmlcncipeecdmlhaipahfdphkd',
@@ -4082,7 +4014,7 @@ const extensions = {
   },
   'Chrome Currency Converter': {
     id: 'anbfhidldjknonaihbalghlebaijealk',
-    file: 'html/test.html',
+    file: 'html/options.html',
   },
   XTranslate: { id: 'gfgpkepllngchpmcippidfhmbhlljhoo', file: 'README.md' },
   Deluminate: {
@@ -4148,7 +4080,7 @@ const extensions = {
   },
   'Toby Mini': {
     id: 'gfdcgfhkelkdmglklfbndgopaihmoeci',
-    file: 'inject.html',
+    file: 'img/128.png',
   },
   'Cool Cursors for Chrome™': {
     id: 'empjidjbllcmlgaobahepkijkfmfkjdb',
@@ -4170,10 +4102,6 @@ const extensions = {
   'MagicScroll Web Reader': {
     id: 'ecldhagehndokdmaiaigoaecbmbnmfkc',
     file: 'images/next_1.png',
-  },
-  'Tamper Chrome (extension)': {
-    id: 'hifhgpdkfodlpnlmlnmhchnkepplebkb',
-    file: 'tamper-16.png',
   },
   'Shinigami Eyes': {
     id: 'ijcpiojgefnkmcadacmacogglhjdjphj',
@@ -4197,7 +4125,7 @@ const extensions = {
   },
   Ultrawidify: {
     id: 'dndehlekllfkaijdlokmmicgnlanfjbi',
-    file: 'res/img/settings/about-bg.png',
+    file: 'res/img/settings/bg_random2.png',
   },
   'その本、図書館にあります。': {
     id: 'ldidobiipljjgfaglokcehmiljadanle',
@@ -4283,16 +4211,15 @@ const extensions = {
   },
   'Outwrite — Grammar checker & rewrite tool': {
     id: 'jldbdlmljpigglecmeclifcdhgbjbakk',
-    file: 'index.css',
+    file: 'assets/icons/icon-128.png',
   },
   'AliPrice - TB以图搜货': {
     id: 'fahhlhbhnmkjegdfoiadmnhcclidoflh',
     file: 'assets/css/common.css',
   },
-  ASIFY: { id: 'biehagnkgckkagkbpncoieiknahmngdg', file: 'asify_128.png' },
-  'nFollowers – Unfollowers Tracker': {
-    id: 'mbomllgopkebhhnljlgikdicedmnpknl',
-    file: 'js/dashboard.js',
+  ASIFY: {
+    id: 'biehagnkgckkagkbpncoieiknahmngdg',
+    file: 'images/asify_128.png',
   },
   AliPrice卖家助手: {
     id: 'lenipkahddombkldhfmcnnjakmcepdlk',
@@ -4340,7 +4267,7 @@ const extensions = {
   },
   'KeePassHttp-Connector': {
     id: 'dafgdjggglmmknipkhngniifhplpcldb',
-    file: 'jquery.min.map',
+    file: 'images/ui-icons_444444_256x240.png',
   },
   CrackWatch: {
     id: 'dechlkibpibjlaidpeniljjejncdhfpj',
@@ -4356,7 +4283,7 @@ const extensions = {
   },
   'iKnow! ポップアップ辞書': {
     id: 'omfegkgipldobddijcpagdabgifghdgb',
-    file: '_metadata/verified_contents.json',
+    file: 'images/owl-128-128.png',
   },
   'CS.Money Antiscam': {
     id: 'bocdepodnagbohblgjmooobalmcojkpg',
@@ -4380,11 +4307,11 @@ const extensions = {
   },
   '1Password Beta – Password Manager': {
     id: 'khgocmkkpikpnmmkgmdnfckapcdkgfaf',
-    file: 'inline/button/injected.css',
+    file: 'images/1password_logo.svg',
   },
   'Subtitles for Language Learning (Prime Video)': {
     id: 'hlofmmmlhfelbfhcpapoackkglljfcnb',
-    file: '_locales/ar/messages.json',
+    file: 'license.html',
   },
   'Sorftime Save': {
     id: 'aadiiicebnjmjmibjengdohedcfeekeg',
@@ -4421,7 +4348,7 @@ const extensions = {
   },
   'Chrome IPTV Player': {
     id: 'defmmfhdopkfcgngoklpbbcnpfpagbfh',
-    file: '_metadata/verified_contents.json',
+    file: 'index.html',
   },
   'TON Wallet': {
     id: 'nphplpgoakhhjchkkhmiggakijnkhfnd',
@@ -4439,7 +4366,6 @@ const extensions = {
     id: 'igieognglkjfefoldlaachcoimjecojk',
     file: 'js/utils.js',
   },
-  CJDropshipping: { id: 'mbndljkgaoailfnpeodnlejigmkdpokb', file: 'assets/' },
   'Password Manager Pro': {
     id: 'hfdkpbblioghdghhkdppipefbchgpohn',
     file: 'images/pmp_16x16.png',
@@ -4476,22 +4402,6 @@ const extensions = {
   'Impero Cloud Extension': {
     id: 'jeddnlnhbnhbpojpebckcgongkiijobk',
     file: 'main.js',
-  },
-  'Avaya Agent for Desktop Extension': {
-    id: 'gbgfbmopppnjeabmjdinikeidmgblchn',
-    file: 'skin/call.png',
-  },
-  'Help Me Focus Extension': {
-    id: 'ooaincdhfcpciedcpmaggdfcmepfjcip',
-    file: 'public/images/bd-128.png',
-  },
-  'New Tab Speed Dial Extension': {
-    id: 'kcgcocmjhhnkcddddgocfcjcmmegplpk',
-    file: 'public/images/bd-128.png',
-  },
-  'Nocturnal Surfer Extension': {
-    id: 'mmjcpjcempclckbijgchmjedopfcnpea',
-    file: 'public/images/background.png',
   },
   'ProductivityTab — Custom Homepage Dashboard': {
     id: 'oghkljobbhapacbahlneolfclkniiami',

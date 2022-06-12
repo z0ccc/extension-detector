@@ -35,6 +35,18 @@ const protectedExtensions = {
     id: 'hefagnpnacabcobofkfodcoiilmjbpkh',
     file: 'web_accessible_resources/1x1.gif',
   },
+  'Okta Browser Plugin': {
+    id: 'glnpjglilkicbckjpbgcfkogebgllemb',
+    file: 'getFrameId',
+  },
+  'Alexa Traffic Rank': {
+    id: 'cknebhggccemgcnbidipinkifmmegdel',
+    file: 'html/content/toolbar.html',
+  },
+  'Startpage Privacy Protection': {
+    id: 'cdkhedhmncjnpabolpjceohohlefegak',
+    file: 'options.html',
+  },
 };
 
 export default protectedExtensions;
