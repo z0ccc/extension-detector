@@ -15,7 +15,24 @@ const isSupported = () => {
   return true;
 };
 
-const Header = ({ hash }) => {
+const getPercentageText = (percentage) => {
+  if (!isSupported()) {
+    return 'Only Chromium desktop browsers are supported';
+  }
+  if (percentage === 'loading') {
+    return 'Loading...';
+  }
+  if (percentage === 'error') {
+    return 'Error';
+  }
+  const percentageRounded = percentage.toFixed(2);
+  if (percentage < 0.01) {
+    return `<0.01% of users share the same extensions`;
+  }
+  return `${percentageRounded}% of users share the same extensions`;
+};
+
+const Header = ({ percentage, hash }) => {
   return (
     <Box>
       <div
@@ -42,11 +59,7 @@ const Header = ({ hash }) => {
         browser fingerprinting. Read more
       </p>
       <div style={{ textAlign: 'center', marginTop: '24px' }}>
-        <h2>
-          {isSupported()
-            ? '0.01% of users share the same extensions'
-            : 'Only Chromium desktop browsers are supported'}
-        </h2>
+        <h2>{getPercentageText(percentage)}</h2>
         <p>Hash: {hash}</p>
       </div>
     </Box>

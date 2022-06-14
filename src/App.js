@@ -8,6 +8,7 @@ import generateHash from './utils/generateHash';
 
 const App = () => {
   const [extensions, setExtensions] = useState();
+  const [percentage, setPercentage] = useState('loading');
   const [hash, setHash] = useState('Loading...');
 
   useEffect(() => {
@@ -23,6 +24,15 @@ const App = () => {
           .sort()
       );
       setHash(hash);
+
+      fetch(`https://api.vytal.io/?hash=${hash}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setPercentage(data.percentage);
+        })
+        .catch((e) => {
+          setPercentage('error');
+        });
     });
   }, []);
 
@@ -33,7 +43,7 @@ const App = () => {
   return (
     <div className="App">
       <div>
-        <Header hash={hash} />
+        <Header percentage={percentage} hash={hash} />
         {extensions ? (
           <Table extensions={extensions} />
         ) : (
