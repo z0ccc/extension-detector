@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Extension Fingerprints",
+  "name": "Extension Fingerprints",
   "icons": [
     {
       "src": "favicon.ico",

@@ -56,7 +56,15 @@ const Header = ({ percentage, hash }) => {
         Chrome extensions can be detected by fetching their web-accessible
         resources. These are files inside an extension that can be accessed by
         web pages. The detected extensions can be used to track you through
-        browser fingerprinting. Read more
+        browser fingerprinting.{' '}
+        <a
+          href="https://github.com/z0ccc/extension-fingerprints"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: '#0069c2' }}
+        >
+          Read more
+        </a>
       </p>
       <div style={{ textAlign: 'center', marginTop: '24px' }}>
         <h2>{getPercentageText(percentage)}</h2>
