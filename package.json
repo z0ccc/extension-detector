@@ -1,6 +1,7 @@
 {
   "name": "extension-fingerprints",
   "version": "0.1.0",
+  "homepage": "https://z0ccc.github.io/extension-fingerprints",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -15,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
