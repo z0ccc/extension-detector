@@ -6,7 +6,7 @@ import Box from './Box';
 import checkExtensions from './utils/checkExtensions';
 import generateHash from './utils/generateHash';
 
-const App = () => {
+function App() {
   const [extensions, setExtensions] = useState();
   const [percentage, setPercentage] = useState('loading');
   const [hash, setHash] = useState('Loading...');
@@ -30,7 +30,7 @@ const App = () => {
         .then((data) => {
           setPercentage(data.percentage);
         })
-        .catch((e) => {
+        .catch(() => {
           setPercentage('error');
         });
     });
@@ -50,6 +50,6 @@ const App = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;

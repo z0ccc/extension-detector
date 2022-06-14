@@ -1,4 +1,4 @@
-const Table = ({ extensions }) => {
+function Table({ extensions }) {
   return (
     <div
       style={{
@@ -27,13 +27,15 @@ const Table = ({ extensions }) => {
                 style={{
                   textTransform: 'capitalize',
                 }}
-              >{`${extensions[key].detected}`}</td>
+              >
+                {`${extensions[key].detected}`}
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
     </div>
   );
-};
+}
 
 export default Table;

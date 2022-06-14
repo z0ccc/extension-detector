@@ -1,5 +1,6 @@
 import protectedExtensions from './protectedExtensions';
 
+// eslint-disable-next-line consistent-return
 const fetchTest = async (url) => {
   const start = performance.now();
   try {

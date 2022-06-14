@@ -1,4 +1,4 @@
-const Box = ({ children }) => {
+function Box({ children }) {
   return (
     <div
       style={{
@@ -13,6 +13,6 @@ const Box = ({ children }) => {
       {children}
     </div>
   );
-};
+}
 
 export default Box;

@@ -1,5 +1,5 @@
-import Box from './Box';
 import GitHubButton from 'react-github-btn';
+import Box from './Box';
 
 const isSupported = () => {
   if (!window.chrome) {
@@ -27,12 +27,12 @@ const getPercentageText = (percentage) => {
   }
   const percentageRounded = percentage.toFixed(2);
   if (percentage < 0.01) {
-    return `<0.01% of users share the same extensions`;
+    return '<0.01% of users share the same extensions';
   }
   return `${percentageRounded}% of users share the same extensions`;
 };
 
-const Header = ({ percentage, hash }) => {
+function Header({ percentage, hash }) {
   return (
     <Box>
       <div
@@ -72,6 +72,6 @@ const Header = ({ percentage, hash }) => {
       </div>
     </Box>
   );
-};
+}
 
 export default Header;
