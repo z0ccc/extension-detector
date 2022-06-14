@@ -17,15 +17,15 @@ const App = () => {
         extensionsArr.sort((a, b) => Number(b.detected) - Number(a.detected))
       );
 
-      const hash = generateHash(
+      const hashValue = generateHash(
         extensionsArr
           .filter((el) => el.detected === true)
           .map(({ id }) => id)
           .sort()
       );
-      setHash(hash);
+      setHash(hashValue);
 
-      fetch(`https://api.vytal.io/?hash=${hash}`)
+      fetch(`https://api.vytal.io/?hash=${hashValue}`)
         .then((response) => response.json())
         .then((data) => {
           setPercentage(data.percentage);
@@ -35,10 +35,6 @@ const App = () => {
         });
     });
   }, []);
-
-  useEffect(() => {
-    console.log(extensions);
-  }, [extensions]);
 
   return (
     <div className="App">

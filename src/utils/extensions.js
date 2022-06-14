@@ -3487,7 +3487,7 @@ const extensions = {
     id: 'hdfadhmdfllnfbckdhiikebblicdggbb',
     file: 'assets/images/download2.png',
   },
-  'CSDN·浏览器助手': {
+  'CSDN 浏览器助手': {
     id: 'kfkdboecolemdjodhmhmcibjocfopejo',
     file: 'css/jsonPages.css',
   },
