@@ -53,7 +53,7 @@ function Header({ percentage, hash }) {
         </GitHubButton>
       </div>
       <p>
-        Chrome extensions can be detected by fetching their web-accessible
+        Chrome extensions can be detected by fetching their web accessible
         resources. These are files inside an extension that can be accessed by
         web pages. The detected extensions can be used to track you through
         browser fingerprinting.{' '}

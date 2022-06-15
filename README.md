@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+## Extension Fingerprints
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check it out here: https://z0ccc.github.io/extension-fingerprints
 
-## Available Scripts
+Chrome extensions can be detected by fetching their web accessible resources. These are files inside an extension that can be accessed by web pages. The detected extensions can be used to track you through browser fingerprinting.
 
-In the project directory, you can run:
+## Detecting Extensions
 
-### `npm start`
+### Fetching web accessible resources
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There is a slight delay between when a new tab is opened and the debugger starts mocking the data. This allows for websites to get the original value of the data before it is changed. After the initial loading of a tab, this will no longer be an issue.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Resource timing comparison
 
-### `npm test`
+While the chrome.debugger API is active, a bar under the address bar is displayed. Hiding the bar is only possible when the --silent-debugger-extension-api command-line switch is used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### MetaMask
 
-### `npm run build`
+Unfortunately Vytal doesn't work on Firefox since Firefox doesn't support the debugger API for extensions. https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#browser_compatibility
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Data Retrieval Methods
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Top window
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The top window is the topmost window in the hierarchy of window objects.
 
-### `npm run eject`
+### Initial load
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Data spoofing methods can have slight delays between the loading of a webpage and the data being spoofed. Data can be retrieved at the very start of loading before the data can be spoofed.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frame
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A frame is a part of a web page which displays content independent of its container, with the ability to load content independently. The HTML or media elements shown in a frame may come from a different web site as the other elements of content on display.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Web worker
 
-## Learn More
+Web Workers are a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface. Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa). Extension content scripts cannot be injected into workers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Data Tampering
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Data spoofed with Vytal can not be detected. Although other extensions which spoof data can be detected. https://vytal.io allows you to compare and test these various tools. A red x signifies that the scanner has detected tampered data. A green check means that no tampering has
+been detected. Clicking on the table row of the tampered data will bring up a modal box showing the type of detected tampering.
 
-### Code Splitting
+## Types of Tampering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Failed Date.prototype.setDate.toString()
 
-### Analyzing the Bundle Size
+```
+if (!Date.prototype.setDate.toString().includes('[native code]')) {
+  return true;
+}
+return false;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Failed Object.getPrototypeOf(Intl.DateTimeFormat.prototype).constructor.toString()
 
-### Making a Progressive Web App
+```
+  if (
+    !Object.getPrototypeOf(Intl.DateTimeFormat.prototype)
+      .constructor.toString()
+      .includes('Object')
+  ) {
+    return true;
+  }
+  return false;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Failed Intl.DateTimeFormat.prototype.resolvedOptions.toString()
 
-### Advanced Configuration
+```
+  if (
+    !Intl.DateTimeFormat.prototype.resolvedOptions
+      .toString()
+      .includes('[native code]')
+  ) {
+    return true;
+  }
+  return false;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Failed Object.getOwnPropertyDescriptor(navigator, key)
 
-### Deployment
+```
+  if (Object.getOwnPropertyDescriptor(navigator, key) !== undefined) {
+    return true;
+  }
+  return false;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Failed object.getOwnPropertyDescriptor(Navigator.prototype, key).value
 
-### `npm run build` fails to minify
+```
+  if (
+    Object.getOwnPropertyDescriptor(Navigator.prototype, key).value !==
+    undefined
+  ) {
+    return true;
+  }
+  return false;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Failed Failed Navigator.prototype[key]
+
+```
+  try {
+    const check = Navigator.prototype[key];
+    return true;
+  } catch (err) {
+    return false;
+  }
+```
+
+### Failed navigator.geolocation.getCurrentPosition.toString().includes('[native code]')
+
+```
+  if (
+    !navigator.geolocation.getCurrentPosition
+      .toString()
+      .includes('[native code]')
+  ) {
+    return true;
+  }
+  return false;
+```
+
+## Screenshots
+
+![Screenshot of extension popup](https://raw.githubusercontent.com/z0ccc/Vytal/master/promo/screenshot-1.png)
+
+![Screenshot of extension popup and vytal.io](https://raw.githubusercontent.com/z0ccc/Vytal/master/promo/screenshot-2.png)
+
+## Dev
+
+This application is built with Javascript and React.
+
+Clone this repo and run these commands to start the development server.
+
+```
+yarn
+yarn run start
+```
+
+Load the extension on Chrome:
+
+- Access chrome://extensions/
+- Check Developer mode
+- Click on Load unpacked extension
+- Select the build folder.
