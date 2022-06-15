@@ -5,6 +5,10 @@
   min-width: 600px;
 }
 
+html, body {
+  min-width:600px;
+}
+       
 html {
   overflow-y: scroll;
 }
