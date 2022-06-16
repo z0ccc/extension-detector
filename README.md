@@ -29,7 +29,7 @@ By default no resources are web accessible; only pages or scripts loaded from an
   ]
 ```
 
-### Manifest v2 declaration
+### Manifest v3 declaration
 
 ```
   "web_accessible_resources": [
