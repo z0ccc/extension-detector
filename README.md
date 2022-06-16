@@ -6,9 +6,13 @@ Chrome extensions can be detected by fetching their web accessible resources. Th
 
 ## Browser Fingerprinting
 
-Fingerprinting is a type of online tracking that’s more invasive than ordinary cookie-based tracking. A digital fingerprint is created when a company makes a unique profile of you based on your computer hardware, software, add-ons, and even preferences. Your settings like the screen you use, the fonts installed on your computer, and even your choice of a web browser can all be used to create a fingerprint.
+Browser fingerprinting is a powerful method that websites use to collect information about your browser type and version, as well as your operating system, active plugins, time zone, language, screen resolution and various other active settings.
 
-https://www.mozilla.org/en-CA/firefox/features/block-fingerprinting/
+These data points might seem generic at first and don’t necessarily look tailored to identify one specific person. However, there’s a significantly small chance for another user to have 100% matching browser information.
+
+Websites use the information that browsers provide to identify unique users and track their online behavior. This process is therefore called “browser fingerprinting.”
+
+hhttps://pixelprivacy.com/resources/browser-fingerprinting/
 
 ## Web Accessible Resources
 
