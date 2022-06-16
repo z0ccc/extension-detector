@@ -4,6 +4,8 @@ Check it out here: https://z0ccc.github.io/extension-fingerprints
 
 Chrome extensions can be detected by fetching their web accessible resources. These are files inside an extension that can be accessed by web pages. The detected extensions can be used to track you through browser fingerprinting.
 
+This website scans over 1000 extensions and shows you the percentage of users that share the same extensions.
+
 ## Browser Fingerprinting
 
 Browser fingerprinting is a powerful method that websites use to collect information about your browser type and version, as well as your operating system, active plugins, time zone, language, screen resolution and various other active settings.
@@ -46,7 +48,7 @@ https://developer.chrome.com/docs/extensions/mv3/manifest/web_accessible_resourc
 
 ### Fetching web accessible resources
 
-A webpage is able to succesfully fetch an installed extensions web accessible resource. If the fetch fails it suaually measn that the extension is nto installed
+A webpage can successfully fetch an installed extensions web accessible resource. If the fetch fails it usually means that the extension is not installed.
 
 ```
 fetch(`chrome-extension://okbilfbeogweaoehlefnkodbefgpgknn/test.png`)
@@ -56,11 +58,20 @@ fetch(`chrome-extension://okbilfbeogweaoehlefnkodbefgpgknn/test.png`)
 
 ### Resource timing comparison
 
-While the chrome.debugger API is active, a bar under the address bar is displayed. Hiding the bar is only possible when the --silent-debugger-extension-api command-line switch is used.
+In an effort to prevent detection some extensions now generate a secret token thats required to access their web accessible resources. Any fetch operation made without the secret token will result in failure. Although its much more difficult to detect these protected extensions, its still possible.
+
+Resources of protected extensions will take longer to fetch than resources of extensions that are not installed. By comparing the timing differences you can accurately determine if the protected extensions are installed or not.
 
 ### MetaMask
 
-Unfortunately Vytal doesn't work on Firefox since Firefox doesn't support the debugger API for extensions. https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions#browser_compatibility
+Although MetaMask has no web accessible resources, it can still be easily detected. This will not work on Brave as `typeof window.ethereum !== 'undefined'` will return true regardless of whether the extension is installed or not.
+
+```
+  if (typeof window.ethereum !== 'undefined' && !navigator.brave) {
+    return true;
+  }
+  return false;
+```
 
 ## Solutions
 
