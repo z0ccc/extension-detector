@@ -58,13 +58,13 @@ fetch(`chrome-extension://okbilfbeogweaoehlefnkodbefgpgknn/test.png`)
 
 ### Resource timing comparison
 
-In an effort to prevent detection some extensions now generate a secret token thats required to access their web accessible resources. Any fetch operation made without the secret token will result in failure. Although its much more difficult to detect these protected extensions, its still possible.
+In an effort to prevent detection some extensions will generate a secret token thats required to access their web accessible resources. Any fetch operation made without the secret token will result in failure. Although its much more difficult to detect these protected extensions, its still possible.
 
-Resources of protected extensions will take longer to fetch than resources of extensions that are not installed. By comparing the timing differences you can accurately determine if the protected extensions are installed or not.
+Resources of protected extensions will take longer to fetch than resources of extensions that are not installed. By comparing the timing differences you can accurately determine if the protected extensions are installed.
 
 ### MetaMask
 
-Although MetaMask has no web accessible resources, it can still be easily detected. This will not work on Brave as `typeof window.ethereum !== 'undefined'` will return true regardless of whether the extension is installed or not.
+Although MetaMask has no web accessible resources, it can still be easily detected by checking if `typeof window.ethereum` equals `undefined`. This will not work on Brave as `typeof window.ethereum !== 'undefined'` will return true regardless of whether the extension is installed or not.
 
 ```
   if (typeof window.ethereum !== 'undefined' && !navigator.brave) {
@@ -73,9 +73,9 @@ Although MetaMask has no web accessible resources, it can still be easily detect
   return false;
 ```
 
-## Solutions
+### Firefox
 
-### FireFox
+Detecting extensions using web accessible resources is not possible on Firefox as Firefox extension ID's are unique for every browser instance. Therefore the URL of the extension resources cannot be known by third parties.
 
 ## Dev
 
@@ -87,10 +87,3 @@ Clone this repo and run these commands to start the development server.
 yarn
 yarn run start
 ```
-
-Load the extension on Chrome:
-
-- Access chrome://extensions/
-- Check Developer mode
-- Click on Load unpacked extension
-- Select the build folder.
