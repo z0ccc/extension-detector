@@ -46,9 +46,12 @@ https://developer.chrome.com/docs/extensions/mv3/manifest/web_accessible_resourc
 
 ### Fetching web accessible resources
 
+A webpage is able to succesfully fetch an installed extensions web accessible resource. If the fetch fails it suaually measn that the extension is nto installed
+
 ```
-yarn
-yarn run start
+fetch(`chrome-extension://okbilfbeogweaoehlefnkodbefgpgknn/test.png`)
+      .then(() => (true))
+      .catch(() => (false))
 ```
 
 ### Resource timing comparison
