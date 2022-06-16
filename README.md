@@ -1,4 +1,4 @@
-## Extension Fingerprints
+# Extension Fingerprints
 
 Check it out here: https://z0ccc.github.io/extension-fingerprints
 
@@ -12,7 +12,7 @@ These data points might seem generic at first and don’t necessarily look tailo
 
 Websites use the information that browsers provide to identify unique users and track their online behavior. This process is therefore called “browser fingerprinting.”
 
-hhttps://pixelprivacy.com/resources/browser-fingerprinting/
+https://pixelprivacy.com/resources/browser-fingerprinting/
 
 ## Web Accessible Resources
 
