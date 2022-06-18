@@ -58,7 +58,7 @@ function Header({ percentage, hash }) {
         web pages. The detected extensions can be used to track you through
         browser fingerprinting.{' '}
         <a
-          href="https://github.com/z0ccc/extension-fingerprints"
+          href="https://github.com/z0ccc/extension-fingerprints#extension-fingerprints"
           target="_blank"
           rel="noreferrer"
           style={{ color: '#0069c2' }}
