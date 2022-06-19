@@ -77,6 +77,10 @@ Although MetaMask has no web accessible resources, it can still be easily detect
 
 Detecting extensions using web accessible resources is not possible on Firefox as Firefox extension ID's are unique for every browser instance. Therefore the URL of the extension resources cannot be known by third parties.
 
+### Edge
+
+This scan only detects extensions from the Chrome Web Store. Extensions from https://microsoftedge.microsoft.com can be detected using the same methods but are not supported by this tool.
+
 ## Dev
 
 This application is built with Javascript and React.
