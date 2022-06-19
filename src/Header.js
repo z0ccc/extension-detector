@@ -56,7 +56,8 @@ function Header({ percentage, hash }) {
         Chrome extensions can be detected by fetching their web accessible
         resources. These are files inside an extension that can be accessed by
         web pages. The detected extensions can be used to track you through
-        browser fingerprinting.{' '}
+        browser fingerprinting. This scan only detects extensions from the
+        Chrome Web Store.{' '}
         <a
           href="https://github.com/z0ccc/extension-fingerprints#extension-fingerprints"
           target="_blank"
