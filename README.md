@@ -37,7 +37,7 @@ By default no resources are web accessible; only pages or scripts loaded from an
   "web_accessible_resources": [
     {
       "resources": [ "test1.png", "test2.png" ],
-      "matches": [ "https://gihub.com/*" ]
+      "matches": [ "<all_urls>" ]
     }
   ],
 ```
