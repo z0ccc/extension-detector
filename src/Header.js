@@ -25,9 +25,9 @@ const getPercentageText = (percentage) => {
   if (percentage === 'error') {
     return 'Error';
   }
-  const percentageRounded = percentage.toFixed(2);
-  if (percentage < 0.01) {
-    return '<0.01% of users share the same extensions';
+  const percentageRounded = percentage.toFixed(3);
+  if (percentage < 0.001) {
+    return '<0.001% of users share the same extensions';
   }
   return `${percentageRounded}% of users share the same extensions`;
 };
