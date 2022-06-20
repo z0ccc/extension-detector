@@ -42,6 +42,8 @@ By default no resources are web accessible; only pages or scripts loaded from an
   ],
 ```
 
+Luckly in manifest v3 extensions will be able to enable 'use_dynamic_url' option, which will change the resource URL for each session (browser restart). This will render this detection method unusable. 
+
 https://developer.chrome.com/docs/extensions/mv3/manifest/web_accessible_resources/
 
 ## Detecting Extensions
