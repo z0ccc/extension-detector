@@ -1,40 +1,40 @@
-import { useState, useEffect } from 'react';
-import './App.css';
-import Table from './Table';
-import Header from './Header';
-import Box from './Box';
-import checkExtensions from './utils/checkExtensions';
-import generateHash from './utils/generateHash';
+import { useState, useEffect } from 'react'
+import './App.css'
+import Table from './Table'
+import Header from './Header'
+import Box from './Box'
+import checkExtensions from './utils/checkExtensions'
+import generateHash from './utils/generateHash'
 
 function App() {
-  const [extensions, setExtensions] = useState();
-  const [percentage, setPercentage] = useState('loading');
-  const [hash, setHash] = useState('Loading...');
+  const [extensions, setExtensions] = useState()
+  const [percentage, setPercentage] = useState('loading')
+  const [hash, setHash] = useState('Loading...')
 
   useEffect(() => {
     checkExtensions().then((extensionsArr) => {
       setExtensions(
         extensionsArr.sort((a, b) => Number(b.detected) - Number(a.detected))
-      );
+      )
 
       const hashValue = generateHash(
         extensionsArr
           .filter((el) => el.detected === true)
           .map(({ id }) => id)
           .sort()
-      );
-      setHash(hashValue);
+      )
+      setHash(hashValue)
 
-      fetch(`https://api.vytal.io/?hash=${hashValue}`)
+      fetch(`https://extensiondetector.vytal.io/?hash=${hashValue}`)
         .then((response) => response.json())
         .then((data) => {
-          setPercentage(data.percentage);
+          setPercentage(data.percentage)
         })
         .catch(() => {
-          setPercentage('error');
-        });
-    });
-  }, []);
+          setPercentage('error')
+        })
+    })
+  }, [])
 
   return (
     <div className="App">
@@ -49,7 +49,7 @@ function App() {
         )}
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

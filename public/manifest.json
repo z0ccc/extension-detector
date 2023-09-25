@@ -1,6 +1,6 @@
 {
-  "short_name": "Extension Fingerprints",
-  "name": "Extension Fingerprints",
+  "short_name": "Extension Detector",
+  "name": "Extension Detector",
   "icons": [
     {
       "src": "favicon.ico",

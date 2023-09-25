@@ -12,7 +12,7 @@ function Box({ children }) {
     >
       {children}
     </div>
-  );
+  )
 }
 
-export default Box;
+export default Box

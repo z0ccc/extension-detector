@@ -1,7 +1,7 @@
 {
-  "name": "extension-fingerprints",
+  "name": "extension-detector",
   "version": "0.1.0",
-  "homepage": "https://z0ccc.github.io/extension-fingerprints",
+  "homepage": "https://z0ccc.github.io/extension-detector",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

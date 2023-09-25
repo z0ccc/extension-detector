@@ -1,9 +1,9 @@
-import GitHubButton from 'react-github-btn';
-import Box from './Box';
+import GitHubButton from 'react-github-btn'
+import Box from './Box'
 
 const isSupported = () => {
   if (!window.chrome) {
-    return false;
+    return false
   }
   // if (
   //   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -12,25 +12,25 @@ const isSupported = () => {
   // ) {
   //   return false;
   // }
-  return true;
-};
+  return true
+}
 
 const getPercentageText = (percentage) => {
   if (!isSupported()) {
-    return 'Only Chromium desktop browsers are supported';
+    return 'Only Chromium desktop browsers are supported'
   }
   if (percentage === 'loading') {
-    return 'Loading...';
+    return 'Loading...'
   }
   if (percentage === 'error') {
-    return 'Error';
+    return 'Error'
   }
-  const percentageRounded = percentage.toFixed(3);
+  const percentageRounded = percentage.toFixed(3)
   if (percentage < 0.001) {
-    return '<0.001% of users share the same extensions';
+    return '<0.001% of users share the same extensions'
   }
-  return `${percentageRounded}% of users share the same extensions`;
-};
+  return `${percentageRounded}% of users share the same extensions`
+}
 
 function Header({ percentage, hash }) {
   return (
@@ -42,12 +42,12 @@ function Header({ percentage, hash }) {
           alignItems: 'center',
         }}
       >
-        <h1>Extension Fingerprints</h1>
+        <h1>Extension Detector</h1>
         <GitHubButton
-          href="https://github.com/z0ccc/extension-fingerprints"
+          href="https://github.com/z0ccc/extension-detector"
           data-size="large"
           data-show-count="true"
-          aria-label="Star z0ccc/extension-fingerprints on GitHub"
+          aria-label="Star z0ccc/extension-detector on GitHub"
         >
           Star
         </GitHubButton>
@@ -59,7 +59,7 @@ function Header({ percentage, hash }) {
         browser fingerprinting. This scan only detects extensions from the
         Chrome Web Store.{' '}
         <a
-          href="https://github.com/z0ccc/extension-fingerprints#extension-fingerprints"
+          href="https://github.com/z0ccc/extension-detector#extension-detector"
           target="_blank"
           rel="noreferrer"
           style={{ color: '#0069c2' }}
@@ -72,7 +72,7 @@ function Header({ percentage, hash }) {
         <p>Hash: {hash}</p>
       </div>
     </Box>
-  );
+  )
 }
 
-export default Header;
+export default Header
